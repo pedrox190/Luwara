@@ -32,7 +32,13 @@ body {
   width: 110px;
   height: 110px;
   border-radius: 50%;
-  background: #fff url('logo.png') center/cover no-repeat;
+  
+}
+
+.LogoLuwara{
+  width: 150px;
+  position: relative;
+  top: 80px;
 }
 
 /* search */
@@ -123,6 +129,29 @@ body {
   border-radius: 10px;
   overflow: hidden;
   position: relative;
+}
+
+.roupa1{
+  height: 450px;
+  width: 300px;
+  margin-top: -500px;
+}
+
+.roupa2{
+  height: 450px;
+  width: 280px;
+  margin-top: -500px;
+}
+.roupa3{
+  height: 450px;
+  width: 300px;
+  margin-top: -500px;
+}
+
+.roupa4{
+  height: 450px;
+  width: 300px;
+  margin-top: -500px;
 }
 
 .img {
