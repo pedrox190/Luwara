@@ -1,34 +1,96 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Novidades da Luwara</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Reprodução - Layout Loja</title>
+  <link rel="stylesheet" href="novidades.css">
 </head>
 <body>
-    <header>
-        <div class="cabeçalho">
-            <marquee behavior="" direction=""></marquee>
-            <img src="./img/WhatsApp_Image_2025-11-17_at_00.12.18-removebg-preview.png" alt="logo Luwara">
-        </div>
-    </header>
+  <div class="top-promo">
+    Compre no site e retire em loja! Consulte condições! *Apenas em São Paulo (Capital) — Frete Grátis acima de R$149,99
+  </div>
 
-    <footer>
-        <div>
-        <h1>Lista de Clientes VIP!
-            Inscreva-se para acessar benefícios exclusivos</h1>
-            <input type="password" placeholder="Nome" required>
-            <input type="password" placeholder="Digite seu e-mail" required>
-            <button class="c-formNews__button" type="submit">
-                <svg class="icon-send" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.65 14.53">
-                    <path d="M15.33,6.76.79.05A.56.56,0,0,0,.13.21a.54.54,0,0,0,0,.68L4.89,7.26.11,13.64a.57.57,0,0,0,.11.78.56.56,0,0,0,.57.06L15.32,7.77A.55.55,0,0,0,15.6,7a.53.53,0,0,0-.28-.27Z" transform="translate(0 0)"></path></svg>
-            </button>
-            <h2>CENTRAL DE ATENDIMENTOS</h2>
-            <p><img src="./img/5799978b-ce74-4807-9b1b-18871680e34b.png" width="35" alt="logo zap-zap">(11) 971343071</p>
-            <h2>Atendimento</h2>
-            <p>Seg a Sex das 9h às 23h</p>
-            
+  <header class="header">
+    <div class="logo"></div>
+
+    <div class="search-wrap">
+      <div class="search">
+        <input placeholder="" aria-label="buscar" />
+        <button aria-hidden="true">🔍</button>
+      </div>
+
+      <div class="pills">
+        <div class="pill">Novidades</div>
+        <div class="pill">Roupas</div>
+      </div>
+    </div>
+
+    <div class="header-right">
+      <div>MINHA CONTA</div>
+      <div>🛍️</div>
+    </div>
+  </header>
+
+  <main>
+    <h1 class="title"><span class="stars">★</span> NOVIDADES <span class="stars">★</span></h1>
+
+    <section class="products-wrap">
+      <div class="products-panel">
+        <div class="product-grid">
+
+          <!-- CARD 1 -->
+          <div class="card badge">
+            <div class="img img1"></div>
+            <div class="flag">FRETE GRÁTIS<br><span class="small">60% OFF</span></div>
+            <div class="card-body">
+              <div class="product-title">Calça Onça - Miranda</div>
+              <div class="rating">★★★★★ (33)</div>
+              <div class="price"><del>R$299,00</del> R$120,00</div>
+            </div>
+            <div class="buy">COMPRAR</div>
+          </div>
+
+          <!-- CARD 2 -->
+          <div class="card badge">
+            <div class="img img2"></div>
+            <div class="flag">FRETE GRÁTIS<br><span class="small">60% OFF</span></div>
+            <div class="card-body">
+              <div class="product-title">Calça Marrom - Teddy</div>
+              <div class="rating">★★★★★ (149)</div>
+              <div class="price"><del>R$299,00</del> R$120,00</div>
+            </div>
+            <div class="buy">COMPRAR</div>
+          </div>
+
+          <!-- CARD 3 -->
+          <div class="card badge">
+            <div class="img img3"></div>
+            <div class="flag">FRETE GRÁTIS<br><span class="small">60% OFF</span></div>
+            <div class="card-body">
+              <div class="product-title">Calça Preta - Nikki</div>
+              <div class="rating">★★★★★ (53)</div>
+              <div class="price"><del>R$299,00</del> R$120,00</div>
+            </div>
+            <div class="buy">COMPRAR</div>
+          </div>
+
+          <!-- CARD 4 -->
+          <div class="card badge">
+            <div class="img img4"></div>
+            <div class="flag">FRETE GRÁTIS<br><span class="small">60% OFF</span></div>
+            <div class="card-body">
+              <div class="product-title">Calça Preta - Miranda</div>
+              <div class="rating">★★★★★ (24)</div>
+              <div class="price"><del>R$299,00</del> R$120,00</div>
+            </div>
+            <div class="buy">COMPRAR</div>
+          </div>
+
         </div>
-    </footer>
+      </div>
+    </section>
+
+  </main>
 </body>
 </html>
