@@ -1,0 +1,215 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
+    color: #111;
+  }
+  
+  /* Promo bar */
+  .top-promo {
+    background: #ff0080;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-weight: 700;
+  }
+  
+  /* HEADER */
+  .header {
+    background: #7b2aa7;
+    padding: 22px 40px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  
+  .logo {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background: #fff url('logo.png') center/cover no-repeat;
+  }
+  
+  /* search */
+  .search-wrap {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .search {
+    width: 70%;
+    max-width: 760px;
+    background: #fff;
+    border-radius: 28px;
+    padding: 12px 18px;
+    border: 4px solid #20c0ff;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .search input {
+    flex: 1;
+    border: none;
+    font-size: 18px;
+    outline: none;
+  }
+  
+  /* pills */
+  .pills {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+  }
+  
+  .pill {
+    background: #fff;
+    padding: 6px 14px;
+    border-radius: 14px;
+    font-weight: 700;
+  }
+  
+  /* right icons */
+  .header-right {
+    color: white;
+    font-weight: 700;
+    display: flex;
+    gap: 18px;
+  }
+  
+  /* Title */
+  .title {
+    text-align: center;
+    font-size: 44px;
+    font-weight: 900;
+    margin-top: 32px;
+    letter-spacing: 2px;
+  }
+  
+  .title .stars {
+    color: #ff2fa6;
+  }
+  
+  /* Products section */
+  .products-wrap {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .products-panel {
+    background: #ff8a00;
+    padding: 28px;
+    border-radius: 22px;
+    width: 90%;
+    max-width: 1300px;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+  }
+  
+  /* Cards */
+  .card {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .img {
+    height: 420px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Replace images */
+  .img1 { background-image: url('img1.jpg'); }
+  .img2 { background-image: url('img2.jpg'); }
+  .img3 { background-image: url('img3.jpg'); }
+  .img4 { background-image: url('img4.jpg'); }
+  
+  .card-body {
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .product-title {
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+  
+  .rating {
+    margin-bottom: 8px;
+  }
+  
+  .price del {
+    margin-right: 6px;
+    color: #888;
+  }
+  
+  .buy {
+    background: black;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    font-weight: 700;
+  }
+  
+  /* Badge */
+  .flag {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: #e74c3c;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 800;
+    text-align: center;
+  }
+  
+  .flag .small {
+    font-size: 10px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 1100px) {
+    .product-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .product-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .img {
+      height: 320px;
+    }
+  }
+  #icon{
+  font-size: 20px;
+  }
+  .ancora{
+    margin-top: 19px;
+    color: white;
+  }
+
+  .roupas{
+    height: 450px;
+    width: 300px;
+    margin-top: -500px;
+    
+  }
