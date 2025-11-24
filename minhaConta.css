@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*determina valores no documento todo*/
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+body {
+    /* Coloquei uma imagem de fundo e centralizei o formulario */
+    display: flex;
+    /* ativa o flexbox */
+    justify-content: center;
+    /* deixa tudo no centro do eixo principal */
+    align-items: center;
+    /* Centraliza o formulario no meio */
+    min-height: 100vh;
+    /* deixa no meio certinho */
+    background-image: url(./img/LogoLuwara.png);
+    /* imagem de fundo(./ OBRIGATORIO!!!!) */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container{ /* Mudamos o tamanho da caixa, colocando um fundo transparente, colocando a borda da caixa e colocando cor nela, mudando a ponta do container...
+     */
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    color: #fff;
+    padding: 30px 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    backdrop-filter: blur(4px);
+}
+/*alterando o h1 dentro do container*/
+.container h1{
+    text-align: center;
+    font-size: 2em;
+}
+
+.caixa-botao{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    position: relative;
+    /*Muda a posição do elemento de acordo com a minha necessidade*/
+}
+/* ... */
+.caixa-botao input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 40px;
+    outline: none;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.caixa-botao input::placeholder{
+    color: #ffffff;
+}
+/*colocando o icon dentro da div*/
+.caixa-botao i{
+    position: absolute;
+    right: 20px;
+    top: 25%;
+    font-size: 20px;
+}
+/*  */
+.lembrar-senha{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lembrar-senha label input{
+    margin-right: 5px;
+    accent-color: #fff;
+
+}
+
+.lembrar-senha a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.lembrar-senha a:hover{
+    text-decoration: underline;
+}
+/* mudando a largura, mudando o tamanho, cor da caixa, nenhuma  */
+.login{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+    border-radius: 40px;
+    font-size: 1em;
+    color: #333;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    margin-top: 20px;
+    cursor: pointer;
+}
+/* background-color: transparent;= deixar transparente, border: 2px solid rgba(255, 255, 255, .2);= coloca cor na borda, color: #fff;= da cor na fonte do texto,  transition: 0.5s; = Coloca uma transisão quando deixa o crusor em cima */
+.login:hover{
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    color: #fff;
+    transition: 0.5s;
+}
+/*font-size: 14px; = mudando o tamanho da fonte, text-align: center; = colocando o texto no centro, margin: 20px 0 15px; = almentando a margin*/
+.registro{
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.registro a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.registro a:hover{
+    text-decoration: underline;
+}
