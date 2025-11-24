@@ -36,9 +36,8 @@ body {
 }
 
 .LogoLuwara{
-  width: 150px;
   position: relative;
-  top: 80px;
+  top: 10px;
 }
 
 /* search */
@@ -72,6 +71,10 @@ body {
   display: flex;
   gap: 8px;
   margin-top: 10px;
+}
+
+.pills a{
+  text-decoration: none;
 }
 
 .pill {
