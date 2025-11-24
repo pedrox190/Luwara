@@ -36,9 +36,8 @@ body {
 }
 
 .LogoLuwara{
-  width: 150px;
   position: relative;
-  top: 80px;
+  top: 10px;
 }
 
 /* search */
@@ -69,6 +68,8 @@ body {
 
 /* pills */
 .pills {
+  width: 300px;
+  height: 35px;
   display: flex;
   gap: 8px;
   margin-top: 25px;
@@ -77,6 +78,14 @@ body {
 .pills a{
   text-decoration: none;
   color: #111;
+}
+
+.pills a{
+  text-decoration: none;
+<<<<<<< HEAD
+=======
+  color: #111;
+>>>>>>> 2252079d25177b8d93b3a86afbec7f1a5d67ec3b
 }
 
 .pill {
@@ -92,6 +101,22 @@ body {
   font-weight: 700;
   display: flex;
   gap: 18px;
+  
+}
+
+.header-right a{
+  text-decoration: none;
+  color: #111;
+  border-radius: 0px;
+  background-color: ;
+}
+
+
+.botao{
+  border-radius: 30px;
+  width: 100px;
+  height: 35px;
+  
 }
 
 /* Title */
