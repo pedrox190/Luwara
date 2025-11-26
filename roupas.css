@@ -23,6 +23,7 @@
   /* HEADER */
   .header {
     background: #7b2aa7;
+    height: 150px;
     padding: 22px 40px;
     display: flex;
     align-items: center;
@@ -214,7 +215,7 @@
 
   .roupas{
     height: 450px;
-    width: 300px;
+    width: 280px;
     margin-top: -500px;
 
     
@@ -223,4 +224,5 @@
     height: 160px;
     position: relative;
     margin: 0px 0px 70px 0px;
+    margin-top: 200px;
   }
