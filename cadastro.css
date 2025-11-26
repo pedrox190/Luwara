@@ -32,6 +32,7 @@ body{
 .div1 input{
     width: 400px;
     height: 40px;
+    border-radius: 10px;
 }
 .especiais{
     margin-left: 30px
@@ -66,9 +67,9 @@ footer a{
 }
 
 .cadastro{
-    background-color: rgb(155, 154, 154);
+    background-color: #eb07a6;
     padding: 10px;
     border-radius: 15px;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
