@@ -7,7 +7,7 @@
   
   body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #fff;
+    background: #c5c3c3;
     color: #111;
   }
   
@@ -87,6 +87,7 @@
     font-weight: 700;
     display: flex;
     gap: 18px;
+    margin-bottom: 50px;
   }
   
   /* Title */
@@ -110,17 +111,16 @@
   }
   
   .products-panel {
-    background: #ff8a00;
     padding: 28px;
     border-radius: 22px;
-    width: 90%;
-    max-width: 1300px;
+    width: 1500px;
+    max-width: 1500px;
   }
   
   .product-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 18px;
+    gap: 58px;
   }
   
   /* Cards */
@@ -216,5 +216,11 @@
     height: 450px;
     width: 300px;
     margin-top: -500px;
+
     
+  }
+  .Logo{
+    height: 160px;
+    position: relative;
+    margin: 0px 0px 70px 0px;
   }
