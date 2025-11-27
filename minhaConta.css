@@ -23,8 +23,7 @@ body {
     /* Centraliza o formulario no meio */
     min-height: 100vh;
     /* deixa no meio certinho */
-    background-image: url(./img/LogoLuwara.png);
-    /* imagem de fundo(./ OBRIGATORIO!!!!) */
+    background-color:  rgb(182, 156, 156);
     background-repeat: no-repeat;
     background-position: center;
 }
