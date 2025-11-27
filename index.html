@@ -1,35 +1,53 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Reprodução - Layout Loja</title>
-    <link rel="stylesheet" href="roupas.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
-      rel='stylesheet'>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>LuWaRa</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+/>
 
+
+<body>
+    <header>
+       <!--- /*////////////////////////////////////////////////////////////////////////-->
       <div class="top-promo">
-        Compre no site e retire em loja! Consulte condições! *Apenas em SãoPaulo (Capital) — Frete Grátis acima de R$149,99
+        Compre no site e retire em loja! Consulte condições! *Apenas em São
+        Paulo (Capital) — Frete Grátis acima de R$149,99
       </div>
 
       <header class="header">
+        
         <img src="img/LogoLuwara.png" alt="logo" class="Logo">
         <div class="search-wrap">
+            
           <div class="search">
             <input placeholder aria-label="buscar" />
             <i class='bx bx-search-alt-2' id="icon"></i>
-          </div>
+            
+            
+        </div>
+
+          
           <br><br>
+
+
           <div class="pills">
+            
+            
             <div class="pill"><a href="novidades.html">Novidades</a>
               <i class='bx bxs-moon' style='color:#fffd00'></i></div>
             <div class="pill"><a href="roupas.html">Roupas</a>
               <i class='bx bxs-sun' style='color:#ffb000'></i></div>
+              
           </div>
+          
+          
         </div>
+        
 
         <div class="header-right">
           <img src="foto/4877784-middle-removebg-preview.png" alt="people"
@@ -37,180 +55,74 @@
           <a href="cadastro.html" class="ancora">MINHA CONTA</a>
           <div><img src="foto/325635665-removebg-preview.png" alt="bag"
               height="50px"></div>
+              
         </div>
+       <!-- ///////////////////////////////////////////////////////////////////////////////////-->
+        
+        
       </header>
 
+
       <main>
-        <h1 class="title"><span class="stars"><i class='bx bxs-sun'
-              style='color:#ffb000'></i></span> ROUPAS <span class="stars"><i
-              class='bx bxs-moon' style='color:#fffd00'></i></span></h1>
+          <section>
+            <!--aqui fica o carrosel-->
+            <article>
+                <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+     <!--
+    <div class="swiper-slide">Slide 1</div>
+    <div class="swiper-slide">Slide 2</div>
+    <div class="swiper-slide">Slide 3</div>
+    ...
+  </div>
+   If we need pagination 
+  <div class="swiper-pagination"></div>
+    -->
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
 
-        <section class="products-wrap">
-          <div class="products-panel">
-            <div class="product-grid">
+            </article>
+    <!--aqui fica OS CIRCULOS-->   
+        <article class="atalho">
+            
+            <div class="bolinha1"><img  id="b1" src="img-index/BODY REDONDO.jpg" width="145px"><br>Body</div>
+            <div class="bolinha2"><img  id="b2" src="img-index/VESTIDO REDONDO.jpg" width="150px"><br>Vestidos</div>
+            <div class="bolinha3"><img id="b3"  src="img-index/TOP REDONDO.jpg" width="150px"><br> Tops</div>
 
-              <!-- CARD 1 -->
-              <div data-aos="fade-up" data-aos-delay="400">
-                <div class="card badge">
-                  <div class="img img1"></div>
-                  <div class="flag">FRETE GRÁTIS<br><span class="small">60%
-                      OFF</span></div>
-                  <img
-                    src="foto/Imagem do WhatsApp de 2025-11-25 à(s) 21.34.26_af11415e.jpg"
-                    alt class="roupas">
-                  <div class="card-body">
-                    <div class="product-title">Calça Onça - Miranda</div>
-                    <div class="rating">★★★★★ (33)</div>
-                    <div class="price"><del>R$299,00</del> R$120,00</div>
-                  </div>
-                  <div class="buy">COMPRAR</div>
-                </div>
-              </div>
-
-              <!-- CARD 2 -->
-              <div data-aos="fade-up" data-aos-delay="400">
-                <div class="card badge">
-                  <div class="img img2"></div>
-                  <div class="flag">FRETE GRÁTIS<br><span class="small">60%
-                      OFF</span></div>
-                  <img
-                    src="foto/Imagem do WhatsApp de 2025-11-25 à(s) 21.34.25_693300ba.jpg"
-                    alt class="roupas">
-                  <div class="card-body">
-                    <div class="product-title">Calça Marrom - Teddy</div>
-                    <div class="rating">★★★★★ (149)</div>
-                    <div class="price"><del>R$299,00</del> R$120,00</div>
-                  </div>
-                  <div class="buy">COMPRAR</div>
-                </div>
-              </div>
-
-              <!-- CARD 3 -->
-              <div data-aos="fade-up" data-aos-delay="400">
-                <div class="card badge">
-                  <div class="img img3"></div>
-                  <div class="flag">FRETE GRÁTIS<br><span class="small">60%
-                      OFF</span></div>
-                  <img
-                    src="foto/Imagem do WhatsApp de 2025-11-25 à(s) 21.34.24_0a564bf1.jpg"
-                    alt class="roupas">
-                  <div class="card-body">
-                    <div class="product-title">Calça Preta - Nikki</div>
-                    <div class="rating">★★★★★ (53)</div>
-                    <div class="price"><del>R$299,00</del>R$120,00</div>
-                  </div>
-                  <div class="buy">COMPRAR</div>
-                </div>
-              </div>
-
-              <!-- CARD 4 -->
-              <div data-aos="fade-up" data-aos-delay="400">
-                <div class="card badge">
-                  <div class="img img4"></div>
-                  <div class="flag">FRETE GRÁTIS<br><span class="small">60%
-                      OFF</span></div>
-                  <img
-                    src="foto/Imagem do WhatsApp de 2025-11-25 à(s) 21.34.22_da69f749.jpg  "
-                    alt class="roupas">
-                  <div class="card-body">
-                    <div class="product-title">Calça Preta - Miranda</div>
-                    <div class="rating">★★★★★ (24)</div>
-                    <div class="price"><del>R$299,00</del> R$120,00</div>
-                  </div>
-                  <div class="buy">COMPRAR</div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </section>
-        <section class="products-wrap">
-          <div class="products-panel">
-            <div class="product-grid">
-
-              <!-- CARD 1 -->
-              <div data-aos="fade-up" data-aos-delay="400">
-
-                <div class="card badge">
-                  <div class="img img1"></div>
-                  <div class="flag">FRETE GRÁTIS<br><span class="small">60%
-                      OFF</span></div>
-                  <img
-                    src="foto/AAHBJASNDASKLASDCNJKDLNDJKLKCNJADMKJNIWODKLM NDFW.jpg"
-                    alt class="roupas">
-                  <div class="card-body">
-                    <div class="product-title">Calça Onça - Miranda</div>
-                    <div class="rating">★★★★★ (33)</div>
-                    <div class="price"><del>R$299,00</del> R$120,00</div>
-                  </div>
-                  <div class="buy">COMPRAR</div>
-                </div>
-              </div>
-
-              <!-- CARD 2 -->
-              <div data-aos="fade-up" data-aos-delay="400">
-                <div class="card badge">
-                  <div class="img img2"></div>
-                  <div class="flag">FRETE GRÁTIS<br><span class="small">60%
-                      OFF</span></div>
-                  <img
-                    src="foto/Imagem do WhatsApp de 2025-11-25 à(s) 21.34.22_c82a2d80.jpg"
-                    alt class="roupas">
-                  <div class="card-body">
-                    <div class="product-title">Calça Marrom - Teddy</div>
-                    <div class="rating">★★★★★ (149)</div>
-                    <div class="price"><del>R$299,00</del> R$120,00</div>
-                  </div>
-                  <div class="buy">COMPRAR</div>
-                </div>
-              </div>
-
-              <!-- CARD 3 -->
-              <div data-aos="fade-up" data-aos-delay="400">
-                <div class="card badge">
-                  <div class="img img3"></div>
-                  <div class="flag">FRETE GRÁTIS<br><span class="small">60%
-                      OFF</span></div>
-                  <img
-                    src="foto/Imagem do WhatsApp de 2025-11-25 à(s) 21.34.22_193a273d.jpg"
-                    alt class="roupas">
-                  <div class="card-body">
-                    <div class="product-title">Calça Preta - Nikki</div>
-                    <div class="rating">★★★★★ (53)</div>
-                    <div class="price"><del>R$299,00</del>R$120,00</div>
-                  </div>
-                  <div class="buy">COMPRAR</div>
-                </div>
-              </div>
-
-              <!-- CARD 4 -->
-              <div data-aos="fade-up" data-aos-delay="400">
-                <div class="card badge">
-                  <div class="img img4"></div>
-                  <div class="flag">FRETE GRÁTIS<br><span class="small">60%
-                      OFF</span></div>
-                  <img
-                    src="foto/Imagem do WhatsApp de 2025-11-25 à(s) 21.34.23_636fb5ff.jpg"
-                    alt class="roupas">
-                  <div class="card-body">
-                    <div class="product-title">Calça Preta - Miranda</div>
-                    <div class="rating">★★★★★ (24)</div>
-                    <div class="price"><del>R$299,00</del> R$120,00</div>
-                  </div>
-                  <div class="buy">COMPRAR</div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </section>
-
+        </article>
+        <br><br>
+               <h2 id="texto2">⭐MAIS VENDIDOS⭐</h2>
+               <br><br>
+        <article class="novidades">
+            <div id="n1"><img id="n6" src="img-index/664418e8-f275-4360-89a3-153196817931.jpg" width="200px">
+            <br><h4>Calça Feminina <br> Alfaiataria <br>Girl com Estas </h4><br><h3 id="c1">R$ 190</h3> <br>3x de R$63,33</div>
+            <div id="n2"><img id="n6"  src="img-index/top ombro so.jpg" width="191px"><br><h4>Top facha de  <br> Suplex <br>Girl Elegante </h4><br><h3 id="c1">R$ 60,00</h3> <br>3x de R$20,00</div>
+            <div id="n3"><img id="n6" src="img-index/top preto1.jpg" width="175px"><br><h4>Top Tube <br> Suplex <br>Girl basiquinho </h4><br><h3 id="c1">R$ 60,00</h3> <br>3x de R$20,00</div>
+            <div id="n4"><img id="n6" src="img-index/f9bbabd1-5f90-48e8-beb0-ba20c432b629.jpg" width="190px"><br><h4>Body Panda de  <br> Suplex <br>sexy e Elegante </h4><br><h3 id="c1">R$ 80,00</h3> <br>3x de R$ 26,66</div>
+            <div id="n5"><img id="n6" src="img-index/body estras.jpg" width="172px"><br><h4>Body de stars  <br> Suplex <br>sexy e Elegante </h4><br><h3 id="c1">R$ 85,00</h3> <br>3x de R$ 40,00</div>
+        </article>
+        <br><br><br>
+        <article class="luwara1">
+            <div id="lw1"><img id="lw4" src="img-index/DESNHO DO BODY.jpg" width="320px"></div>
+            <div id="lw2"><img id="lw4" src="img-index/DESENHO  DE TUDO.jpg" width="320px"></div>
+            <div id="lw3"><img id="lw4" src="img-index/DESENHO DO TOP.jpg" width="320px"></div>
+        </article>
+        <br><br>
+        <h2 id="texto2">🎀Tendencia Do Final Do Ano 🎀</h2>
+        <br><br>
+        <article>
+            <div><img src="" alt=""></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </article>
+    </section>
       </main>
-
-      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-      <script>
-        AOS.init();
-    </script>
-    </body>
-  </html>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+</body>
+</html>
