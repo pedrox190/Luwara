@@ -12,8 +12,9 @@
 }
 
 #tres_circulos{
-    display:inline;    
-    width:1000%
+    display:flex; 
+       
+    width:1000%;
     height: 5000%;
     background-color: rgb(131, 21, 82);
     
