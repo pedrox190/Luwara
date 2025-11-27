@@ -1,0 +1,361 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #eeebeb;
+    color: #111;
+  }
+  
+  /* Promo bar */
+  .top-promo {
+    background: #ff0080;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-weight: 700;
+  }
+  
+  /* HEADER */
+  .header {
+    background: #7b2aa7;
+    height: 150px;
+    padding: 22px 40px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  
+  .logo {
+    width: 100px;
+    height: 110px;
+    border-radius: 50%;
+    background: #fff url('logo.png') center/cover no-repeat;
+  }
+  
+  /* search */
+  .search-wrap {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .search {
+    width: 70%;
+    max-width: 760px;
+    background: #fff;
+    border-radius: 28px;
+    padding: 12px 18px;
+    border: 4px solid #20c0ff;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .search input {
+    flex: 1;
+    border: none;
+    font-size: 18px;
+    outline: none;
+  }
+   /* pills */
+  .pills {
+    display: flex;
+    gap: 8px;
+    margin-top: 25px;
+    text-decoration: none;
+  }
+  .pills a{
+    text-decoration: none;
+    color: #111;
+  }
+  
+  .pill {
+    background: #fff;
+    padding: 6px 14px;
+    border-radius: 14px;
+    font-weight: 700;
+  }
+  
+  /* right icons */
+  .header-right {
+    color: white;
+    font-weight: 700;
+    display: flex;
+    gap: 18px;
+    margin-bottom: 50px;
+  }
+  
+  /* Title */
+  .title {
+    text-align: center;
+    font-size: 44px;
+    font-weight: 900;
+    margin-top: 32px;
+    letter-spacing: 2px;
+  }
+  
+  .title .stars {
+    color: #ff2fa6;
+  }
+  
+  /* Products section */
+  .products-wrap {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .products-panel {
+    padding: 28px;
+    border-radius: 22px;
+    width: 1500px;
+    max-width: 1500px;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 58px;
+  }
+  
+  /* Cards */
+  .card {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .img {
+    height: 420px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Replace images */
+  .img1 { background-image: url('img1.jpg'); }
+  .img2 { background-image: url('img2.jpg'); }
+  .img3 { background-image: url('img3.jpg'); }
+  .img4 { background-image: url('img4.jpg'); }
+  
+  .card-body {
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .product-title {
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+  
+  .rating {
+    margin-bottom: 8px;
+  }
+  
+  .price del {
+    margin-right: 6px;
+    color: #818080;
+  }
+  
+  .buy {
+    background: black;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    font-weight: 700;
+  }
+  
+  /* Badge */
+  .flag {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: #e74c3c;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 800;
+    text-align: center;
+  }
+  
+  .flag .small {
+    font-size: 10px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 1100px) {
+    .product-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .product-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .img {
+      height: 320px;
+    }
+  }
+  #icon{
+  font-size: 20px;
+  }
+  .ancora{
+    margin-top: 19px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .roupas{
+    height: 450px;
+    width: 280px;
+    margin-top: -500px;
+
+    
+  }
+  .Logo{
+    height: 160px;
+    position: relative;
+    margin: 0px 0px 70px 0px;
+    margin-top: 200px;
+  }
+
+.swiper {
+    
+    background-color: aqua;
+  width:100%;
+  height: 100%;
+  margin-top: 60px;
+}
+/* aqui e aprte das 3 bolinhas*/
+.atalho{
+    display:flex;
+    margin-left: 430px;
+  
+}
+.bolinha1{
+    margin-right: 35px;
+
+    text-align: center;
+    
+}
+.bolinha2{
+    margin-right: 35px;
+    
+    text-align: center;
+
+}
+.bolinha3{
+    text-align: center;
+}
+
+#b1{
+    border-radius: 50%;
+    text-align: center;
+}
+#b2{
+    border-radius: 60%;
+}
+#b3{
+    border-radius: 150%;
+}
+   
+
+#texto2{
+    text-align: center;
+}
+
+.novidades{
+    display:flex;
+    margin-left: 38px;
+    margin-right: 30px;
+    padding-top: 25px;
+     padding-left:110px;
+    
+     
+   
+    
+}
+#n1{
+  text-align: center;
+  background-color:  rgb(226, 225, 208);
+  height: 451px;
+  width: 220px;
+  border-radius: 25px;
+  border:5px solid rgb(250, 220, 23);
+}
+#n2{
+    margin-left: 15px;
+ text-align: center;
+ background-color: rgb(226, 225, 208);
+  height: 451px;
+  width: 215px;
+  border-radius: 25px;
+  border:5px solid rgb(250, 220, 23);
+}
+
+#n3{
+    margin-left: 15px;
+    text-align: center;
+    background-color:  rgb(226, 225, 208);
+  height: 451px;
+  width: 203px;
+  border-radius: 25px;
+  border:5px solid rgb(250, 220, 23);
+}
+#n4{
+    margin-left: 15px;
+    text-align: center;
+    background-color: rgb(226, 225, 208);
+  height: 450px;
+  width: 210px;
+  border-radius: 25px;
+  border:5px solid rgb(250, 220, 23);
+
+}
+#n5{
+    margin-left: 15px;
+    text-align: center;
+    background-color: rgb(226, 225, 208);
+  height: 450px;
+  width: 194px;
+  border-radius: 25px;
+  border:5px solid rgb(250, 220, 23);
+}
+#n6{
+    border-radius: 20px;
+}
+#c1{
+    color: #f508a6;
+}
+
+
+
+.luwara1{
+    display: flex;
+    padding-top: 60px;
+    padding-left: 210px;
+    width: 100%;
+    height: 500px;    
+    
+    background-image:url(img-index/luwara\ branco\ preto.jpg);
+    background-size: cover;
+    border:10px solid rgb(247, 8, 183);
+
+}
+#lw1{
+    margin-right: 15px;
+   
+}
+#lw2{
+    margin-right: 15px;
+}
+ #lw4{
+     border:7px solid rgb(247, 8, 183);
+ }
