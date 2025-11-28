@@ -415,3 +415,69 @@
   #nt6{
     border-radius: 20px;
   }
+
+  .queridinho{
+    display: flex;
+    border: solid black;
+      border-radius: 60px;
+  }
+  #querido1{
+    padding-left: 300px;
+  }
+  #vestido{
+    padding-left:30px;
+  }
+  #vestido_texto2{
+    padding-left: 30px;
+    text-align: center;
+  }
+  #video_vest{
+      border-radius: 60px;
+  }
+
+.comentarios{
+  display: flex;
+  padding-left: 195px;
+  
+}
+#opiniao{
+  text-align: center;
+  color:palevioletred;
+  
+}
+#c1{
+  padding-right: 30px;
+}
+#c2{
+  padding-right: 30px;
+}
+#c3{
+  padding-right: 30px;
+}
+#c5{
+  
+  border: solid yellow 3px  ;
+  border-radius: 60px;
+}
+.todos_videos{
+  display: flex;
+  padding-left: 28px;
+  
+  
+}
+#vt1{
+  padding-right: 25px;
+
+}
+#vt2{
+  padding-right: 25px;
+}
+#vt3{
+  padding-right: 25px;
+}
+#vt4{
+  padding-right: 25px;
+}
+#vt5{
+  padding-right: 25px;
+}
