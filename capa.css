@@ -359,3 +359,59 @@
  #lw4{
      border:7px solid rgb(247, 8, 183);
  }
+
+
+ .natal{
+    display:flex;
+    padding-left :150px;
+ }
+
+ #nt1{
+     margin-left: 15px;
+    text-align: center;
+    background-color: rgb(226, 225, 208);
+  height: 450px;
+  width: 210px;
+  border-radius: 25px;
+  border:5px solid rgb(212, 4, 4);
+ }
+
+ #nt2{
+     margin-left: 15px;
+    text-align: center;
+    background-color: rgb(226, 225, 208);
+  height: 450px;
+  width: 210px;
+  border-radius: 25px;
+  border:5px solid rgb(212, 4, 4);
+ }
+  #nt3{
+     margin-left: 15px;
+    text-align: center;
+    background-color: rgb(226, 225, 208);
+  height: 450px;
+  width: 210px;
+  border-radius: 25px;
+  border:5px solid rgb(212, 4, 4);
+  }
+  #nt4{
+     margin-left: 15px;
+    text-align: center;
+    background-color: rgb(226, 225, 208);
+  height: 450px;
+  width: 210px;
+  border-radius: 25px;
+  border:5px solid rgb(212, 4, 4);
+  }
+  #nt5{
+     margin-left: 15px;
+    text-align: center;
+    background-color: rgb(226, 225, 208);
+  height: 450px;
+  width: 210px;
+  border-radius: 25px;
+  border:5px solid rgb(212, 4, 4);
+  }
+  #nt6{
+    border-radius: 20px;
+  }
