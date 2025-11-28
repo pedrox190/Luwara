@@ -461,12 +461,13 @@
 }
 .todos_videos{
   display: flex;
-  padding-left: 28px;
+  padding-left: 50px;
   
   
 }
 #vt1{
   padding-right: 25px;
+  
 
 }
 #vt2{
@@ -480,4 +481,29 @@
 }
 #vt5{
   padding-right: 25px;
+}
+#vt8{
+  border-radius: 20px;
+  border:solid rgb(247, 8, 183) 2px;
+}
+.video_imagem{
+  display: flex;
+}
+#vi1{
+  padding-left: 50px;
+}
+#vi2{
+  padding-left: 60px;
+}
+#vi3{
+  padding-left: 60px;
+}
+#vi4{
+  padding-left: 60px;
+}
+#vi5{
+  padding-left: 60px;
+}
+#vi6{
+  padding-left: 60px;
 }
