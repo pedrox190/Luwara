@@ -16,7 +16,7 @@ botoes2.forEach(btn => {
 });
 
 confirmar.onclick = () => {
-    adicionarCarrinho();   // ⬅️ AQUI É O QUE FALTAVA
+    adicionarCarrinho();
     popup.style.display = "none";
     alert("Adicionado com sucesso! 🛒");
 };

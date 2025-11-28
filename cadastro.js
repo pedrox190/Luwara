@@ -22,3 +22,13 @@ function mostraSenha2() {
     botao.textContent = "👁️"; // volta o ícone
   }
 }
+const botao = document.querySelector('.CriarConta button');
+const form = document.querySelector('form');
+
+botao.addEventListener('click', () => {
+    if (form.checkValidity()) {
+        alert('Conta criada!');
+    } else {
+        alert('Preencha todos os campos obrigatórios.');
+    }
+});
