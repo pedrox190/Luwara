@@ -349,3 +349,22 @@
     align-items: center;
     justify-content: center;
 }
+.logo-footer{
+  height: 250px;
+  display: flex;
+}
+.apps{
+  height: 60px;
+  display: flex;
+
+}
+.logo-footer p{
+  height: 250px;
+  display: flex;
+  text-align: center;
+  margin-right: 90px;
+  margin-top: 90px;
+}
+.logo-right{
+  margin-right: 200px;
+}
