@@ -1,20 +1,21 @@
 <!doctype html>
 <html lang="pt-br">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Lawara - Novidades</title>
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
-      rel='stylesheet'>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="novidades.css">
   <link rel="shortcut icon" href="LogoLuwara.png" type="image/x-icon">
 </head>
+
 <body>
   <div class="top-promo">
     Compre no site e retire em loja! Consulte condições! *Apenas em São Paulo (Capital) — Frete Grátis acima de R$149,99
   </div>
 
-  <header class="header" >
+  <header class="header">
     <img src="img/LogoLuwara.png" alt="logo" class="Logo" width="166.2px">
     <div class="search-wrap">
       <div class="search">
@@ -23,86 +24,78 @@
       </div>
 
       <div class="pills">
-          <div class="pill"><a href="index.html">Pagina Inicial</a>
-          <i class='bx bxs-moon' style='color:#fffd00' ></i></div>
-          <div class="pill"><a href="roupas.html">Roupas</a>
-          <i class='bx bxs-sun' style='color:#ffb000' ></i></div>
+        <div class="pill"><a href="index.html">Pagina Inicial</a>
+          <i class='bx bxs-moon' style='color:#fffd00'></i>
+        </div>
+        <div class="pill"><a href="roupas.html">Roupas</a>
+          <i class='bx bxs-sun' style='color:#ffb000'></i>
+        </div>
       </div>
     </div>
 
     <div class="header-right">
-        <img src="foto/4877784-middle-removebg-preview.png" alt="people" width="60px">
+      <img src="foto/4877784-middle-removebg-preview.png" alt="people" width="60px">
       <a href="minhaConta.html" class="ancora">MINHA CONTA</a>
-      <div><img src="foto/325635665-removebg-preview.png" alt="bag" height="50px"></div>
+      <div class="carrinho-icon">
+        <img src="foto/325635665-removebg-preview.png" alt="bag" height="50px">
+        <span id="contador-carrinho" class="badge">0</span>
+      </div>
     </div>
   </header>
 
   <main>
-    <h1 class="title"><span class="stars"><i class='bx bxs-sun'
-      style='color:#ffb000'></i></span> NOVIDADES <span class="stars"><i
-      class='bx bxs-moon' style='color:#fffd00'></i></span></h1>
-
-
-    <section class="products-wrap">
-      <div class="products-panel">
-        <div class="product-grid">
-
-          <!-- CARD 1 -->
-          <div class="card badge">
-            <div class="img img1"></div>
-            <div class="flag">FRETE GRÁTIS<br><span class="small">60% OFF</span></div>
-            <img src="./img/CropeedVermelho.jpg" alt="roupa" class="roupa1">
-            <div class="card-body">
-              <div class="product-title">Cropeed Vermelho - Miranda</div>
-              <div class="rating">★★★★★ (33)</div>
-              <div class="price"><del>R$299,00</del> R$120,00</div>
-            </div>
-            <div class="buy">COMPRAR</div>
-          </div>
-
-          <!-- CARD 2 -->
-          <div class="card badge">
-            <div class="img img2"></div>
-            <div class="flag">FRETE GRÁTIS<br><span class="small">60% OFF</span></div>
-            <img src="./img/BodyBranco.jpg" alt="roupa" class="roupa2">
-            <div class="card-body">
-              <div class="product-title">Body Branco - Teddy</div>
-              <div class="rating">★★★★★ (149)</div>
-              <div class="price"><del>R$299,00</del> R$120,00</div>
-            </div>
-            <div class="buy">COMPRAR</div>
-          </div>
-
-          <!-- CARD 3 -->
-          <div class="card badge">
-            <div class="img img3"></div>
-            <div class="flag">FRETE GRÁTIS<br><span class="small">60% OFF</span></div>
-            <img src="./img/CalçaVermelha.jpg" alt="roupa" class="roupa3">
-            <div class="card-body">
-              <div class="product-title">Calça Vermelha - Nikki</div>
-              <div class="rating">★★★★★ (53)</div>
-              <div class="price"><del>R$299,00</del> R$120,00</div>
-            </div>
-            <div class="buy">COMPRAR</div>
-          </div>
-
-          <!-- CARD 4 -->
-          <div class="card badge">
-            <div class="img img4"></div>
-            <div class="flag">FRETE GRÁTIS<br><span class="small">60% OFF</span></div>
-            <img src="./img/CalçaBranca.jpg" alt="roupa" class="roupa4">
-            <div class="card-body">
-              <div class="product-title">Calça Branca - Miranda</div>
-              <div class="rating">★★★★★ (24)</div>
-              <div class="price"><del>R$299,00</del> R$120,00</div>
-            </div>
-            <div class="buy">COMPRAR</div>
-          </div>
-
+    <h1 class="title"><span class="stars"><i class='bx bxs-sun' style='color:#ffb000'></i></span> NOVIDADES <span
+        class="stars"><i class='bx bxs-moon' style='color:#fffd00'></i></span></h1>
+    <div data-aos="fade-up" data-aos-duration="1500">
+      <div class="novidades">
+        <div id="n1"><img id="n6" src="img/CropeedVermelho.jpg" width="200px">
+          <br>
+          <h3>Calça Feminina <br> Alfaiataria <br>Girl com Estas </h3><br>
+          <h3 id="c1">R$ 190</h3> <br>3x de R$63,33 <br> <button class="botoes">COMPRAR</button>
+        </div>
+        <div id="n2"><img id="n6" src="img/BodyBranco.jpg" width="191px"><br>
+          <h3>Top facha de <br> Suplex <br>Girl Elegante </h3><br>
+          <h3 id="c1">R$ 60,00</h3> <br>3x de R$20,00 <br> <button class="botoes">COMPRAR</button>
+        </div>
+        <div id="n3"><img id="n6" src="img/CalçaVermelha.jpg" width="175px"><br>
+          <h3>Top Tube <br> Suplex <br>Girl basiquinho </h3><br>
+          <h3 id="c1">R$ 60,00</h3> <br>3x de R$20,00 <br> <button class="botoes">COMPRAR</button>
+        </div>
+        <div id="n4"><img id="n6" src="img/CalçaBranca.jpg" width="190px"><br>
+          <h3>Body Panda de <br> Suplex <br>sexy e Elegante </h3><br>
+          <h3 id="c1">R$ 80,00</h3> <br>3x de R$ 26,66 <br> <button class="botoes">COMPRAR</button>
         </div>
       </div>
-    </section>
-
+      <div id="popup" class="popup">
+        <div class="box">
+          <p id="textoPopup"></p>
+          <button id="confirmar">Confirmar</button>
+          <button id="cancelar">Cancelar</button>
+        </div>
+      </div>
   </main>
+
+  <footer>
+
+    <img src="LogoLuwara.png" alt="" class="logo-right">
+    <img src="" alt="">
+    <div class="logo-footer">
+      <div class="p-footer">
+        <p>Minha Conta</p>
+        <p>Meus Pedidos</p>
+        <p>Quem Somos</p>
+      </div>
+      <div class="icone-footer">
+        <img src="foto/Instagram_icon.png" alt="" class="inswat" height=" 60px">
+        <img src="foto/WhatsApp.svg.webp" alt="" class="inswat" height=" 60px">
+      </div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="novidades.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
+
 </html>
