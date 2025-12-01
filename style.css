@@ -607,4 +607,7 @@ footer{
     margin-top: 19px;
     color: white;
     text-decoration: none;
+   border: 1px solid #ccc; /* borda bem fininha */
   }
+
+   
