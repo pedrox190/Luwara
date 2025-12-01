@@ -13,6 +13,11 @@
         "wdth" 100;
 }
 
+.icone-x{
+    display: flex;
+    justify-content: end;
+}
+
 body {
     /* Coloquei uma imagem de fundo e centralizei o formulario */
     display: flex;
