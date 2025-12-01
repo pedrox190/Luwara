@@ -7,58 +7,43 @@
     <link rel="stylesheet" href="style.css">
     <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
-/>
+  href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
+      rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="LogoLuwara.png" type="image/x-icon"><!--o incone de navegaçao-->
 
 
 <body>
-    <header>
-       <!--- /*////////////////////////////////////////////////////////////////////////-->
-      <div class="top-promo">
-        Compre no site e retire em loja! Consulte condições! *Apenas em São
-        Paulo (Capital) — Frete Grátis acima de R$149,99
+    <div class="top-promo">
+        Compre no site e retire em loja! Consulte condições! *Apenas em SãoPaulo (Capital) — Frete Grátis acima de R$149,99
       </div>
 
-      <header class="header">
-        
-        <img src="img/LogoLuwara.png" alt="logo" class="Logo">
-        <div class="search-wrap">
-            
-          <div class="search">
-            <input placeholder aria-label="buscar" />
-            <i class='bx bx-search-alt-2' id="icon"></i>
-            
-            
-        </div>
+  <header class="header" >
+    <img src="img/LogoLuwara.png" alt="logo" class="Logo" width="166.2px">
+    <div class="search-wrap">
+      <div class="search">
+        <input placeholder="" aria-label="buscar" />
+        <i class='bx bx-search-alt-2' id="icon"></i>
+      </div>
 
-          
-          <br><br>
+      <div class="pills">
+          <div class="pill"><a href="index.html">Pagina Inicial</a>
+          <i class='bx bxs-moon' style='color:#fffd00' ></i></div>
+          <div class="pill"><a href="novidades.html">Novidades</a>
+          <i class='bx bxs-sun' style='color:#ffb000' ></i></div>
+      </div>
+    </div>
 
-
-          <div class="pills">
-            
-            
-            <div class="pill"><a href="novidades.html">Novidades</a>
-              <i class='bx bxs-moon' style='color:#fffd00'></i></div>
-            <div class="pill"><a href="roupas.html">Roupas</a>
-              <i class='bx bxs-sun' style='color:#ffb000'></i></div>
-              
-          </div>
-          
-          
-        </div>
-        
-
-        <div class="header-right">
-          <img src="foto/4877784-middle-removebg-preview.png" alt="people"
-            width="60px">
-          <a href="cadastro.html" class="ancora">MINHA CONTA</a>
-          <div><img src="foto/325635665-removebg-preview.png" alt="bag"
-              height="50px"></div>
-              
-        </div>
-       <!-- ///////////////////////////////////////////////////////////////////////////////////-->
-        
+    <div class="header-right">
+        <img src="foto/4877784-middle-removebg-preview.png" alt="people" width="60px">
+      <a href="minhaConta.html" class="ancora">MINHA CONTA</a>
+      <div class="carrinho-icon">
+  <img src="foto/325635665-removebg-preview.png" alt="bag" height="50px">
+  <span id="contador-carrinho" class="badge">0</span>
+</div>
+    </div>
+  </header>
         
       </header>
 
@@ -98,11 +83,11 @@
                <br><br>
         <article class="novidades">
             <div id="n1"><img id="n6" src="img-index/664418e8-f275-4360-89a3-153196817931.jpg" width="200px">
-            <br><h4>Calça Feminina <br> Alfaiataria <br>Girl com Estas </h4><br><h3 id="c1">R$ 190</h3> <br>3x de R$63,33  <br><button><h2>Comprar </h2></button><br></div>
-            <div id="n2"><img id="n6"  src="img-index/top ombro so.jpg" width="191px"><br><h4>Top facha de  <br> Suplex <br>Girl Elegante </h4><br><h3 id="c1">R$ 60,00</h3> <br>3x de R$20,00  <br><button><h2>Comprar </h2></button><br></div>
-            <div id="n3"><img id="n6" src="img-index/top preto1.jpg" width="175px"><br><h4>Top Tube <br> Suplex <br>Girl basiquinho </h4><br><h3 id="c1">R$ 60,00</h3> <br>3x de R$20,00  <br><button><h2>Comprar </h2></button><br></div>
-            <div id="n4"><img id="n6" src="img-index/f9bbabd1-5f90-48e8-beb0-ba20c432b629.jpg" width="190px"><br><h4>Body Panda de  <br> Suplex <br>sexy e Elegante </h4><br><h3 id="c1">R$ 80,00</h3> <br>3x de R$ 26,66  <br><button><h2>Comprar </h2></button><br></div>
-            <div id="n5"><img id="n6" src="img-index/body estras.jpg" width="172px"><br><h4>Body de stars  <br> Suplex <br>sexy e Elegante </h4><br><h3 id="c1">R$ 85,00</h3> <br>3x de R$ 40,00  <br><button><h2>Comprar </h2></button><br></div>
+            <br><h4>Calça Feminina <br> Alfaiataria <br>Girl com Estas </h4><h3 id="c1">R$ 190</h3> 3x de R$63,33  <br><button class="botoes"><h3>Comprar </h2></button><br></div>
+            <div id="n2"><img id="n6"  src="img-index/top ombro so.jpg" width="191px"><h4>Top facha de  <br> Suplex <br>Girl Elegante </h4><h3 id="c1">R$ 60,00</h3> 3x de R$20,00  <br><button class="botoes"><h3>Comprar </h2></button><br></div>
+            <div id="n3"><img id="n6" src="img-index/top preto1.jpg" width="175px"><br><h4>Top Tube <br> Suplex <br>Girl basiquinho </h4><h3 id="c1">R$ 60,00</h3> 3x de R$20,00  <br><button class="botoes"><h3>Comprar </h2></button><br></div>
+            <div id="n4"><img id="n6" src="img-index/f9bbabd1-5f90-48e8-beb0-ba20c432b629.jpg" width="190px"><br><h4>Body Panda de  <br> Suplex <br>sexy e Elegante </h4><h3 id="c1">R$ 80,00</h3> 3x de R$ 26,66  <br><button class="botoes"><h3>Comprar </h2></button><br></div>
+            <div id="n5"><img id="n6" src="img-index/body estras.jpg" width="172px"><br><h4>Body de stars  <br> Suplex <br>sexy e Elegante </h4><h3 id="c1">R$ 85,00</h3> 3x de R$ 40,00  <br><button class="botoes"><h3>Comprar </h2></button><br></div>
         </article>
         <br><br><br>
         <article class="luwara1">
@@ -114,11 +99,11 @@
         <h1 id="texto2">🎀Tendencia Do Final Do Ano 🎀</h1>
         <br><br>
         <article class="natal">
-            <div id="nt1"><img id="nt6" src="img-index/body veRMELHO PANDA.webp" width="180px"><br><h4>Body Panda de  <br> Suplex <br>sexy e Elegante </h4><br><h3 id="c1">R$ 80,00</h3> <br>3x de R$ 26,66 <br><button><h2>Comprar </h2></button><br></div>
-            <div id="nt2"><img id="nt6" src="img-index/SAIA VERMELHA1.jpg" width="190px"><br><h4>Conjuto de jeans <br> VERMELHO<br>sexy e Elegante </h4><br><h3 id="c1">R$ 250,00</h3> <br>3x de R$ 40,00  <br><button><h2>Comprar </h2></button><br></div>
-            <div id="nt3"><img id="nt6"  src="img-index/body estras.jpg" width="165px"><br><h4>Body de stars  <br> Suplex <br>sexy e Elegante </h4><br><h3 id="c1">R$ 85,00</h3> <br>3x de R$ 40,00  <br><button><h2>Comprar </h2></button><br></div>
-            <div id="nt4"><img id="nt6" src="img-index/VESTIDO VERMEHO.webp" width=195px"><br><h4>Vestido de <br>Paetê<br>sexy e Elegante </h4><br><h3 id="c1">R$ 85,00</h3> <br>3x de R$ 40,00  <br><button><h2>Comprar </h2></button><br></div>
-            <div id="nt5"><img id="nt6" src="img-index/TOPÇ VERMELHO.jpg" width="155px"><br><h4>Top facha de  <br> Suplex <br>Girl Elegante </h4><br><h3 id="c1">R$ 60,00</h3> <br>3x de R$20,00  <br><button><h2>Comprar </h2></button><br></div>
+            <div id="nt1"><img id="nt6" src="img-index/body veRMELHO PANDA.webp" width="180px"><br><h4>Body Panda de  <br> Suplex <br>sexy e Elegante </h4><br><h3 id="c1">R$ 80,00</h3> 3x de R$ 26,66 <br><button class="botoes"><h3>Comprar </h2></button><br></div>
+            <div id="nt2"><img id="nt6" src="img-index/SAIA VERMELHA1.jpg" width="190px"><br><h4>Conjuto de jeans <br> VERMELHO<br>sexy e Elegante </h4><br><h3 id="c1">R$ 250,00</h3> 3x de R$ 40,00  <br><button class="botoes"><h3>Comprar </h2></button><br></div>
+            <div id="nt3"><img id="nt6"  src="img-index/body estras.jpg" width="165px"><br><h4>Body de stars  <br> Suplex <br>sexy e Elegante </h4><br><h3 id="c1">R$ 85,00</h3> 3x de R$ 40,00  <br><button class="botoes"><h3>Comprar </h2></button><br></div>
+            <div id="nt4"><img id="nt6" src="img-index/VESTIDO VERMEHO.webp" width=195px"><br><h4>Vestido de <br>Paetê<br>sexy e Elegante </h4><br><h3 id="c1">R$ 85,00</h3> 3x de R$ 40,00  <br><button class="botoes"><h3>Comprar </h2></button><br></div>
+            <div id="nt5"><img id="nt6" src="img-index/TOPÇ VERMELHO.jpg" width="152px"><br><h4>Top facha de  Suplex <br>Girl Elegante </h4><br><br><h3 id="c1">R$ 60,00</h3> 3x de R$20,00  <br><button class="botoes"><h3>Comprar </h2></button><br></div>
             
         </article>
         <br><br>
@@ -131,7 +116,7 @@
             <h2 > ❤️O QUERIDINHO DAS CLIENTE ❤️</h2> <br>
             <h5> <i> um vestido ispirado  a infulencer Virginia Fonseca, que modela <br> todo seu corpo  composto  por uma fenda na parte frontal</i></h5>
             <br>
-             <img  id="vestido"  src="img-index/desenho vestido no (1).png" width="350px"><br><div id="vestido_texto2"><h2 id="vestido_texto2">Vestido Suplex Girl Elegante </h4><br><h3 id="c1">R$ 60,00</h4> <br>3x de R$20,00  <br><button><h2>Comprar </h2></button><br></h4></div>
+             <img  id="vestido"  src="img-index/desenho vestido no (1).png" width="350px"><br><div id="vestido_texto2"><h2 id="vestido_texto2">Vestido Suplex Girl Elegante </h4><br><h3 id="c1">R$ 60,00</h4> <br>3x de R$20,00  <br><button class="botoes"><h2>Comprar </h2></button><br></h4></div>
            </div>
         </article>
         <br><br>
@@ -166,19 +151,40 @@
 
         <article class="video_imagem">
           <div id="vi1"><img src="img-index/calsa brilho.jpg" width="100px"></div>
-          <div id="vi5"><br><h4> calça de estras sexy <br> e Elegante </h4><br><h4 id="c1">R$ 190,00</h4> <h4> 3x de R$ 26,66</h4> <button><h3>Comprar </h3></button><br></div></div>
+          <div id="vi5"><br><h4> calça de estras sexy <br> e Elegante </h4><br><h4 id="c1">R$ 190,00</h4> <h4> 3x de R$ 26,66</h4> <button class="botoes"><h3>Comprar </h3></button><br></div></div>
           <div id="vi2"> <img src="img-index/top costas nuas1.jpg" width="79px"></div>
-          <div id="vi5"><br><h4>Top costas nuas  <br> Suplex sexy e Elegante </h4><br><h4 id="c1">R$ 80,00</h6>  </h4><h4>3x de R$ 26,66 </h4><button><h4>Comprar </h4></button><br></div></div>
+          <div id="vi5"><br><h4>Top costas nuas  <br> Suplex sexy e Elegante </h4><br><h4 id="c1">R$ 80,00</h6>  </h4><h4>3x de R$ 26,66 </h4><button class="botoes"><h4>Comprar </h4></button><br></div></div>
           <div id="vi3"><img src="img-index/body funcido 1.jpg" width="108px"></div>
-          <div id="vi5"><br><h4>Body trapeado   Suplex <br>sexy e Elegante </h4><br><h4 id="c1">R$ 60,00</h4> <h4>3x de R$ 20,00 </h4><button><h4>Comprar </h4></button><br></div></div>
+          <div id="vi5"><br><h4>Body trapeado   Suplex <br>sexy e Elegante </h4><br><h4 id="c1">R$ 60,00</h4> <h4>3x de R$ 20,00 </h4><button class="botoes"><h4>Comprar </h4></button><br></div></div>
           <div id="vi4"> <img src="img-index/top facha.webp" width="120px"></div>
-          <div id="vi5"><br><h4>Top Tube  Suplex sexy <br>e Elegante </h4><br><h4 id="c1">R$ 60,00</h4> <h4> 3x de R$ 20,00 </h4>  <button><h4>Comprar </h4></button><br></div></div>
+          <div id="vi5"><br><h4>Top Tube  Suplex sexy <br>e Elegante </h4><br><h4 id="c1">R$ 60,00</h4> <h4> 3x de R$ 20,00 </h4>  <button class="botoes"><h4>Comprar </h4></button><br></div></div>
          
     </section>
       </main>
+      <br><br>
       <footer>
 
+        
+          <img src="LogoLuwara.png" alt="" class="logo-right" >
+          <img src="" alt="">
+          <div class="logo-footer">
+          <div class="p-footer">
+            <h2>Minha Conta</p>
+            <h2>Meus Pedidos</p>
+            <h2>Quem Somos</p>
+          </div>
+          <div class="icone-footer">
+            <img src="foto/Instagram_icon.png" alt="" class="inswat" height=" 60px">
+            <img src="foto/WhatsApp.svg.webp" alt="" class="inswat" height=" 60px">
+          </div>
+          </div>
+    
       </footer>
       <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="index.js"></script>
+      <script>
+        AOS.init();
+    </script>
 </body>
 </html>
