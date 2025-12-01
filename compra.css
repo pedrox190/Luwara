@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.icone-x{
+    display: flex;
+    justify-content: end;
+}
+
 body{
     background-color: rgb(182, 156, 156);
 }
