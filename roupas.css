@@ -90,6 +90,7 @@
     display: flex;
     gap: 18px;
     text-align: center;
+    align-items: center;
   }
   
   /* Title */
@@ -233,7 +234,7 @@
 }
 #n2{
     margin-left: 15px;
- text-align: center;
+  text-align: center;
  background-color: rgb(226, 225, 208);
   border-radius: 25px;
   border:5px solid rgb(250, 220, 23);
@@ -465,7 +466,7 @@ footer{
   #n1, #n2, #n3, #n4, #n5 {
     width: 100%;
     max-width: 320px;
-    margin-left: 0 !important;
+    margin-left: 0 !important;  
   }
 
   #n6 {
@@ -538,7 +539,7 @@ footer{
 
 
 .header {
-    top: 35px; 
+    top: 33px; 
 }
 
 body {

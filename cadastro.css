@@ -24,6 +24,7 @@ body{
     justify-content: center;
     text-align: center;
     font-size: 20px; 
+    padding: 10px;
 }
 .div1{
  text-align: center;
@@ -72,4 +73,577 @@ footer a{
     border-radius: 15px;
     text-decoration: none;
     color: rgb(255, 255, 255);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background: #c5c3c3;
+    color: #111;
+  }
+  
+  /* Promo bar */
+  .top-promo {
+    background: #ff0080;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-weight: 700;
+  }
+  
+  /* HEADER */
+  .header {
+    background: #7b2aa7;
+    height: 100px;
+    padding: 22px 40px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  
+  .logo {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background: #fff url('logo.png') center/cover no-repeat;
+  }
+  
+  /* search */
+  .search-wrap {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .search {
+    width: 70%;
+    max-width: 760px;
+    background: #fff;
+    border-radius: 28px;
+    padding: 12px 18px;
+    border: 4px solid #20c0ff;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .search input {
+    flex: 1;
+    border: none;
+    font-size: 18px;
+    outline: none;
+  }
+  
+  /* pills */
+  .pills {
+    display: flex;
+    gap: 8px;
+    text-decoration: none;
+}
+.pills a{
+  text-decoration: none;
+  color: #111;
+}
+
+
+.pill {
+  background: #fff;
+  padding: 6px 14px;
+  border-radius: 14px;
+  font-weight: 700;
+}
+  
+  /* right icons */
+  .header-right {
+    color: white;
+    font-weight: 700;
+    display: flex;
+    gap: 18px;
+    text-align: center;
+    align-items: center;
+  }
+  
+  /* Title */
+  .title {
+    text-align: center;
+    font-size: 44px;
+    font-weight: 900;
+    margin-top: 32px;
+    letter-spacing: 2px;
+  }
+  
+  .title .stars {
+    color: #ff2fa6;
+  }
+  
+  /* Products section */
+  .products-wrap {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .products-panel {
+    padding: 28px;
+    border-radius: 22px;
+    width: 1500px;
+    max-width: 1500px;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+  }
+  
+  /* Cards */
+  .card {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    border: 5px solid aqua;
+  }
+  
+  .img {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Replace images */
+  .img1 { background-image: url('img1.jpg'); }
+  .img2 { background-image: url('img2.jpg'); }
+  .img3 { background-image: url('img3.jpg'); }
+  .img4 { background-image: url('img4.jpg'); }
+  
+  .card-body {
+    padding: 16px;
+    text-align: center;
+    
+  }
+  
+  .product-title {
+    font-weight: 600px;
+    margin-bottom: 5px;
+  }
+  
+  .rating {
+    margin-bottom: 8px;
+  }
+  
+  .price del {
+    margin-right: 6px;
+    color: #888;
+  }
+  
+  .buy {
+    background: black;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    font-weight: 700;
+  }
+  
+  /* Badge */
+  .flag {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: #e74c3c;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 800;
+    text-align: center;
+  }
+  
+  .flag .small {
+    font-size: 10px;
+  }
+  
+  #icon{
+  font-size: 20px;
+  }
+  .ancora{
+    margin-top: 19px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .roupas{
+    height: 300px;
+    width: 280px;
+    margin-top: -500px;
+  }
+  .Logo{
+    height: 180px;
+    width: 190px;
+    position: relative;
+    margin: 0px 0px 70px 0px;
+    margin-top: 160px;
+  }
+.novidades{
+    display:flex;
+    margin-left: 38px;
+    margin-right: 30px;
+    padding-top: 25px;
+    padding-left:110px;   
+    justify-content: space-between;
+}
+.ancora{
+    margin-top: 19px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .roupas{
+    height: 300px;
+    width: 280px;
+    margin-top: -500px;
+  }
+  .Logo{
+    height: 180px;
+    width: 190px;
+    position: relative;
+    margin: 0px 0px 70px 0px;
+    margin-top: 160px;
+  }
+.novidades{
+    display:flex;
+    margin-left: 38px;
+    margin-right: 30px;
+    padding-top: 25px;
+    padding-left:110px;   
+    justify-content: space-between;
+}
+
+  #n1{
+  text-align: center;
+  background-color:  rgb(226, 225, 208);
+  border-radius: 25px;
+  border:5px solid rgb(250, 220, 23);
+  margin-left: -109px;
+
+
+}
+#n2{
+    margin-left: 15px;
+  text-align: center;
+ background-color: rgb(226, 225, 208);
+  border-radius: 25px;
+  border:5px solid rgb(250, 220, 23);
+}
+
+#n3{
+    margin-left: 15px;
+    text-align: center;
+    background-color:  rgb(226, 225, 208);
+  border-radius: 25px;
+  border:5px solid rgb(250, 220, 23);
+}
+#n4{
+    margin-left: 15px;
+    text-align: center;
+    background-color: rgb(226, 225, 208);
+  border-radius: 25px;
+  border:5px solid rgb(250, 220, 23);
+
+}
+#n5{
+    margin-left: 15px;
+    text-align: center;
+    background-color: rgb(226, 225, 208);
+    border-radius: 25px;
+    border:5px solid rgb(250, 220, 23);
+}
+#n6{
+    border-radius: 20px;
+    width: 255px;
+    height: 340px;
+}
+
+.popup {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    width: 280px;
+    text-align: center;
+    height: 160px;
+}
+.box button{
+  margin-top: 15px;
+  padding: 7px;
+  border-radius: 13px;   /* arredonda */
+  border: 1px solid #ccc; /* borda bem fininha */
+  cursor: pointer;
+
+}
+.botoes{
+  padding: 10px;
+  margin: 10px;
+  width: 240px;
+  border-radius: 13px;   /* arredonda */
+  border: 1px solid #ccc; /* borda bem fininha */
+  cursor: pointer;
+  transition: .2s;
+}
+
+.botoes:hover {
+    transform: translateY(-5px);
+    box-shadow: inset   10px 10px 15px rgba(0,0,0,.25);
+}
+#confirmar{
+  margin-right: 8px;
+}
+.box button:hover {
+    transform: translateY(-2px);
+    box-shadow: inset   10px 10px 15px rgba(0,0,0,.25);
+}
+.carrinho-icon {
+    position: relative;
+    display: inline-block;
+}
+
+.badge {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background: red;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: none; /* começa invisível */
+    align-items: center;
+    justify-content: center;
+}
+.logo-footer{
+  height: 250px;
+  display: flex;
+}
+.apps{
+
+  display: flex;
+  margin-left: -280px;
+  gap: 40px;
+  justify-content: center;
+
+
+}
+.logo-footer{
+  height: 250px;
+  display: flex;
+  text-align: center;
+  margin-right: 90px;
+  margin-top: 100px;
+  flex-direction: column;
+}
+.logo-right{
+  margin-right: 200px;
+  height: 250px;
+  display: flex;
+}
+footer{
+  background-image: url(foto/8f24d14d-eb93-4c3b-b0ad-03019e453fc8.jfif);
+  display: flex;
+}
+.p-footer{
+  width: 700px;
+  color: #fff;
+  display: flex;
+  margin-bottom: 100px;
+  gap: 70px;
+}
+.icone-footer{
+  margin-left: -600px;
+}
+.foto1{
+  transition: opacity .4s ease;
+}
+.foto2{
+  transition: opacity .4s ease;
+}
+.foto3{
+  transition: opacity .4s ease;
+}
+.foto4{
+  transition: opacity .4s ease;
+}
+.foto5{
+  transition: opacity .4s ease;
+}
+.foto6{
+  transition: opacity .4s ease;
+}
+.foto7{
+  transition: opacity .4s ease;
+}
+.foto8{
+  transition: opacity .4s ease;
+
+} 
+
+/* =====================================
+        RESPONSIVIDADE — TABLET
+===================================== */
+@media (max-width: 1100px) {
+
+  /* produtos 2 por linha */
+  .novidades {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  #n1, #n2, #n3, #n4, #n5 {
+    margin-left: 0 !important;
+  }
+}
+
+/* =====================================
+        RESPONSIVIDADE — CELULAR
+===================================== */
+@media (max-width: 600px) {
+
+  /* HEADER */
+  .header {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .Logo {
+    width: 120px;
+    height: 120px;
+    margin: 0;
+  }
+
+  .search {
+    width: 100%;
+  }
+
+  .pills {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* ITENS DO HEADER À DIREITA */
+  .header-right {
+    margin-bottom: 0;
+    justify-content: center;
+  }
+
+  /* PRODUTOS 1 POR LINHA */
+  .novidades {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #n1, #n2, #n3, #n4, #n5 {
+    width: 100%;
+    max-width: 320px;
+    margin-left: 0 !important;  
+  }
+
+  #n6 {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+  }
+
+  /* FOOTER */
+  footer {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 0;
+    gap: 20px;
+  }
+
+  .logo-right {
+    margin: 0;
+    height: 180px;
+  }
+
+  .logo-footer {
+    margin: 0;
+    text-align: center;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .p-footer {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    margin: 0;
+  }
+
+  .icone-footer {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+}
+footer{
+  margin-top: 80px;
+}
+.ancora-class{
+  background: #fff;
+  padding: 6px 14px;
+  border-radius: 14px;
+  text-align: center;
+}
+.header-right a{
+  color: #111;
+  text-align: center;
+}
+
+.top-promo,
+.header {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+
+.top-promo {
+    top: 0;
+}
+
+
+.header {
+    top: 33px; 
+}
+
+body {
+    padding-top: 135px; 
 }
