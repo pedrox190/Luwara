@@ -2,29 +2,32 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="minhaConta.css">
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
-    <title>Formulário - IOS</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="minhaConta.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+  <link rel="stylesheet" href="header.css">
+  <title>Formulário - IOS</title>
 </head>
 
 <body>
+  <div class="top-promo">
+    Compre no site e retire em loja! Consulte condições! *Apenas em São Paulo (Capital) — Frete Grátis acima de R$149,99
+  </div>
 
-      <div class="top-promo">
-        Compre no site e retire em loja! Consulte condições! *Apenas em São Paulo (Capital) — Frete Grátis acima de R$149,99
-      </div>
-
- <header class="header">
+  <header class="header">
     <a href="index.html"><img src="img/LogoLuwara.png" alt="logo" class="Logo" width="166.2px"></a>
     <div class="search-wrap">
       <div class="pills">
-          <div class="pill"><a href="pagina_sobre.html">Sobre</a>
-          <i class='bx bxs-moon' style='color:#fffd00' ></i></div>
-          <div class="pill"><a href="novidades.html">Novidades</a>
-          <i class='bx bxs-sun' style='color:#ffb000' ></i></div>
+        <div class="pill"><a href="pagina_sobre.html">Sobre</a>
+          <i class='bx bxs-moon' style='color:#fffd00'></i>
+        </div>
+        <div class="pill"><a href="novidades.html">Novidades</a>
+          <i class='bx bxs-sun' style='color:#ffb000'></i>
+        </div>
         <div class="pill"><a href="roupas.html">Roupas</a>
-          <i class='bx bxs-sun' style='color:#ffb000' ></i></div>
+          <i class='bx bxs-sun' style='color:#ffb000'></i>
+        </div>
       </div>
     </div>
     </div>
@@ -33,42 +36,42 @@
       <div class="ancora-class"><a href="minhaConta.html" class="ancora">Login</a></div>
       <div class="ancora-class"><a href="cadastro.html" class="ancora">Cadastro</a></div>
       <div class="carrinho-icon">
-        <a href="compra.html"><img src="foto/325635665-removebg-preview.png" alt="bag" height="50px"></a>
+        <a href="compra.html"><img src="foto/325635665-removebg-preview.png" alt="bag" class="bag"></a>
         <span id="contador-carrinho" class="badge">0</span>
       </div>
     </div>
   </header>
 
-    <main class="container">
-        <form action="">
-             <div class="icone-x">
-                <a href="index.html">
-                    <img src="https://images.icon-icons.com/2715/PNG/512/x_icon_172101.png" alt="" width="25px">
-                </a>
-            </div>
-            <h1>Faça Login</h1>
-            <div class="caixa-botao">
-                <input type="email" placeholder="Email"><!--entrada de dados-->
-                <i class="bx bxs-user"></i>
-            </div>
-            <div class="caixa-botao" >
-                <input type="password" placeholder="Senha">
-                <i class="bx bxs-lock-alt"></i>
-            </div>
-            <div class="lembrar-senha">
-                <label>
-                    <input type="checkbox">
-                    Lembrar senha
-                </label>
-                <a href="#">Esqueci a senha</a>
-            </div>
-                <button type="submit" class="login">Login</button>
-            <div class="registro">
-                <p>Não tem uma conta? <a href="cadastro.html">Cadastre-se</a></p>
-            </div>
-        </form>
-    </main>
-
+  <main class="container">
+    <form action="">
+      <div class="icone-x">
+        <a href="index.html">
+          <img src="https://images.icon-icons.com/2715/PNG/512/x_icon_172101.png" alt="" width="25px">
+        </a>
+      </div>
+      <h1>Faça Login</h1>
+      <div class="caixa-botao">
+        <input type="email" placeholder="Email"><!--entrada de dados-->
+        <i class="bx bxs-user"></i>
+      </div>
+      <div class="caixa-botao">
+        <input type="password" placeholder="Senha">
+        <i class="bx bxs-lock-alt"></i>
+      </div>
+      <div class="lembrar-senha">
+        <label>
+          <input type="checkbox">
+          Lembrar senha
+        </label>
+        <a href="#">Esqueci a senha</a>
+      </div>
+      <button type="submit" class="login">Login</button>
+      <div class="registro">
+        <p>Não tem uma conta? <a href="cadastro.html">Cadastre-se</a></p>
+      </div>
+    </form>
+  </main>
+  <script src="addcarrinho.js"></script>
 </body>
 
 </html>

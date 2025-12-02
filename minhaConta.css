@@ -1,17 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
-/*determina valores no documento todo*/
 * {
-    margin: 0%;
-    padding: 0%;
     box-sizing: border-box;
-    font-family: "Noto Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
-}
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
+    color: #111;
+    background: #c5c3c3;
+  }
 
 .icone-x{
     display: flex;
@@ -28,7 +26,7 @@ body {
     /* Centraliza o formulario no meio */
     min-height: 100vh;
     /* deixa no meio certinho */
-    background-color:  #7b2aa7;
+    background-color:  #c5c3c3;
     background-repeat: no-repeat;
     background-position: center;
 }

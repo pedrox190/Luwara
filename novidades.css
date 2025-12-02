@@ -11,94 +11,15 @@ body {
   background: #c5c3c3;
 }
 
-/* Promo bar */
-.top-promo {
-  background: #ff0080;
-  color: white;
-  text-align: center;
-  padding: 8px;
-  font-weight: 700;
-}
 
-/* HEADER */
-  .header {
-    background: #7b2aa7;
-    height: 100px;
-    padding: 22px 40px;
-    display: flex;
-    align-items: center;
-    gap: 24px;
-  }
-  
-  .logo {
-    width: 110px;
-    height: 110px;
-    border-radius: 50%;
-    background: #fff url('logo.png') center/cover no-repeat;
-  }
-  
-  /* search */
-  .search-wrap {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .search {
-    width: 70%;
-    max-width: 760px;
-    background: #fff;
-    border-radius: 28px;
-    padding: 12px 18px;
-    border: 4px solid #20c0ff;
-    display: flex;
-    gap: 10px;
-  }
-  
-  .search input {
-    flex: 1;
-    border: none;
-    font-size: 18px;
-    outline: none;
-  }
-  
-  /* pills */
-  .pills {
-    display: flex;
-    gap: 8px;
-    text-decoration: none;
-}
-.pills a{
-  text-decoration: none;
-  color: #111;
-}
-
-
-.pill {
-  background: #fff;
-  padding: 6px 14px;
-  border-radius: 14px;
-  font-weight: 700;
-}
-  
-  /* right icons */
-  .header-right {
-    color: white;
-    font-weight: 700;
-    display: flex;
-    gap: 18px;
-    text-align: center;
-    align-items: center;
-  }
 
 /* Title */
   .title {
     text-align: center;
     font-size: 44px;
     font-weight: 900;
-    margin-top: 170px;
     letter-spacing: 2px;
+    margin-top: 32px;
   }
   
   .title .stars {
@@ -222,15 +143,6 @@ body {
   object-fit: cover;
   border-radius: 20px;
 }
-
-.Logo{
-    height: 180px;
-    width: 190px;
-    position: relative;
-    margin: 0px 0px 70px 0px;
-    margin-top: 160px;
-  }
-
 
 /* Ajuste do container */
   
@@ -426,33 +338,4 @@ body {
 .footer-right iframe {
     border-radius: 12px;
     box-shadow: 0 0 6px rgba(0,0,0,0.4);
-}
-
-.ancora-class{
-  background: #fff;
-  padding: 6px 14px;
-  border-radius: 14px;
-  text-align: center;
-}
-.header-right a{
-  color: #111;
-  text-align: center;
-}
-
-.top-promo,
-.header {
-    position: fixed;
-    left: 0;
-    width: 100%;
-    z-index: 9999;
-}
-
-
-.top-promo {
-    top: 0;
-}
-
-
-.header {
-    top: 33px; 
 }

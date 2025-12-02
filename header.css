@@ -1,0 +1,137 @@
+body {
+    padding-top: 98px;
+}
+
+/* Promo bar */
+.top-promo {
+    background: #ff0080;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-weight: 700;
+    z-index: 100;
+    top: 0;
+}
+
+/* HEADER */
+.header {
+    background: #7b2aa7;
+    height: 65px;
+    padding: 22px 40px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    z-index: 100;
+    top: 33px;
+}
+
+.Logo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: url('logo.png') center/cover no-repeat;
+    position: relative;
+    top: 20px;
+}
+
+/* search */
+.search-wrap {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search {
+    width: 70%;
+    max-width: 760px;
+    background: #fff;
+    border-radius: 28px;
+    padding: 12px 18px;
+    border: 4px solid #20c0ff;
+    display: flex;
+    gap: 10px;
+}
+
+/* pills */
+.pills {
+    display: flex;
+    gap: 8px;
+    text-decoration: none;
+}
+
+.pills a {
+    text-decoration: none;
+    color: #111;
+}
+
+
+.pill {
+    background: #fff;
+    padding: 6px 14px;
+    border-radius: 14px;
+    font-weight: 700;
+}
+
+/* right icons */
+.header-right {
+    color: white;
+    font-weight: 700;
+    display: flex;
+    gap: 18px;
+    text-align: center;
+    align-items: center;
+}
+
+.ancora {
+    margin-top: 19px;
+    color: white;
+    text-decoration: none;
+}
+
+.ancora-class {
+    background: #fff;
+    padding: 6px 14px;
+    border-radius: 14px;
+    text-align: center;
+}
+
+.header-right a {
+    color: #111;
+    text-align: center;
+}
+
+.carrinho-icon {
+    position: relative;
+    display: inline-block;
+}
+
+.bag {
+    height: 40px;
+}
+
+.badge {
+    position: absolute;
+    top: -7px;
+    right: -7px;
+    background: red;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: none;
+    /* começa invisível */
+    align-items: center;
+    justify-content: center;
+}
+
+
+.top-promo,
+.header {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
