@@ -89,7 +89,6 @@
     font-weight: 700;
     display: flex;
     gap: 18px;
-    margin-bottom: 10px;
   }
   
   /* Title */
@@ -511,4 +510,34 @@ footer{
 }
 footer{
   margin-top: 80px;
+}
+.ancora-class{
+  background: #fff;
+  padding: 6px 14px;
+  border-radius: 14px;
+}
+.header-right a{
+  color: #111;
+}
+
+.top-promo,
+.header {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+
+.top-promo {
+    top: 0;
+}
+
+
+.header {
+    top: 35px; 
+}
+
+body {
+    padding-top: 135px; 
 }
