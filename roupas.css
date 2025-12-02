@@ -24,7 +24,7 @@
   /* HEADER */
   .header {
     background: #7b2aa7;
-    height: 150px;
+    height: 100px;
     padding: 22px 40px;
     display: flex;
     align-items: center;
@@ -68,7 +68,6 @@
   .pills {
     display: flex;
     gap: 8px;
-    margin-top: 25px;
     text-decoration: none;
 }
 .pills a{
@@ -90,7 +89,7 @@
     font-weight: 700;
     display: flex;
     gap: 18px;
-    margin-bottom: 50px;
+    text-align: center;
   }
   
   /* Title */
@@ -193,22 +192,6 @@
     font-size: 10px;
   }
   
-  /* Responsive */
-  @media (max-width: 1100px) {
-    .novidades {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-  
-  @media (max-width: 600px) {
-    .novidades {
-      grid-template-columns: 1fr;
-    }
-  
-    .img {
-      height: 320px;
-    }
-  }
   #icon{
   font-size: 20px;
   }
@@ -224,11 +207,11 @@
     margin-top: -500px;
   }
   .Logo{
-    height: 220px;
-    width: 230px;
+    height: 180px;
+    width: 190px;
     position: relative;
     margin: 0px 0px 70px 0px;
-    margin-top: 200px;
+    margin-top: 160px;
   }
 .novidades{
     display:flex;
@@ -414,6 +397,7 @@ footer{
 }
 .foto8{
   transition: opacity .4s ease;
+
 } 
 
 /* =====================================
@@ -523,4 +507,40 @@ footer{
     justify-content: center;
     gap: 20px;
   }
+
+}
+footer{
+  margin-top: 80px;
+}
+.ancora-class{
+  background: #fff;
+  padding: 6px 14px;
+  border-radius: 14px;
+  text-align: center;
+}
+.header-right a{
+  color: #111;
+  text-align: center;
+}
+
+.top-promo,
+.header {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+
+.top-promo {
+    top: 0;
+}
+
+
+.header {
+    top: 35px; 
+}
+
+body {
+    padding-top: 135px; 
 }
