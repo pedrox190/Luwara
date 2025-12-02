@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
   }
    body {
     
@@ -22,7 +22,7 @@
   /* HEADER */
   .header {
     background: #7b2aa7;
-    height: 150px;
+    height: 80px;
     padding: 22px 40px;
     display: flex;
     align-items: center;
@@ -31,7 +31,7 @@
   
   .logo {
     width: 110px;
-    height: 110px;
+    height: 9gi0px;
     border-radius: 50%;
     background: #fff url('logo.png') center/cover no-repeat;
   }
@@ -463,7 +463,7 @@
 }
 .todos_videos{
   display: flex;
-  padding-left: 100px;
+  padding-left: 70px;
   
   
 }
@@ -491,7 +491,7 @@
 }
 .video_imagem{
   display: flex;
-  padding-left: 50PX;
+  padding-left: 20PX;
 }
 #vi1{
   padding-left: 50px;
@@ -574,11 +574,12 @@ footer{
   border: palegoldenrod solid 5px;
 }
 .p-footer{
-  width: 700px;
+  width: 500px;
   color: #fffefe;
   display: flex;
   margin-bottom: 100px;
   gap: 70px;
+  
   
 }
 .icone-footer{
@@ -607,4 +608,46 @@ footer{
     margin-top: 19px;
     color: white;
     text-decoration: none;
+  
   }
+.t1{
+   border: 1px solid #ccc; /* borda bem fininha */
+   padding: 10px;
+  margin: 10px;
+  width: 170px;
+  border-radius: 13px;   /* arredonda */
+  border: 1px solid #ccc; /* borda bem fininha */
+  cursor: pointer;
+  transition: .2s;
+   background-color: #ccc;
+}
+.t2{
+  border: 1px solid #ccc; /* borda bem fininha */
+  padding: 10px;
+  margin: 10px;
+  width: 170px;
+  border-radius: 13px;   /* arredonda */
+  border: 1px solid #ccc; /* borda bem fininha */
+  cursor: pointer;
+  transition: .2s;
+   background-color: #ccc;
+}
+.t3{
+  border: 1px solid #ccc; /* borda bem fininha */
+  padding: 10px;
+  margin: 10px;
+  width: 190px;
+  border-radius: 10px;   /* arredonda */
+  border: 1px solid #ccc; /* borda bem fininha */
+  cursor: pointer;
+  transition: .2s;
+  background-color: #ccc;
+}
+   
+.mapa{
+  margin-top: 45px;
+  margin-right: 100px;
+}
+.mapa iframe{
+ border-radius: 20px;
+}

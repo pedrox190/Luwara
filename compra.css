@@ -1,140 +1,261 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  display: flex;
+  justify-content: end;
+}
+
+#h1-carrinho{
+margin-right: 530px;
 }
 
 .icone-x{
-    display: flex;
-    justify-content: end;
+  margin-right: 20px;
 }
 
-body{
-    background-color: rgb(182, 156, 156);
+body {
+  background: #f6f6f6;
+  font-family: 'Lato', sans-serif;
 }
 
-main{
-    text-align: center;
-    color: white;
+body > header {
+  background: #7b2aa7;
+  color: white;
+  font-size: 24px;
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-h1{
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-.top-banner {
-    background: #ff0a84;
-    color: white;
-    text-align: center;
-    padding: 8px 0;
-    font-weight: bold;
-    font-size: 14px;
+body > main {
+  background: #c5c3c3;
+  padding: 0 30px 30px;
 }
 
-/* ===== GRID PRINCIPAL ===== */
-.carrinho-grid {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 25px;
+body > main .page-title {
+  font-size: 40px;
+  padding: 50px 0;
+  text-align: center;
 }
 
-.preco {
-    font-weight: bold;
-    color: #111;
+body > main .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-/* Quantidade */
-.quantidade {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+body > main .content section {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
-.quantidade button {
-    width: 30px;
-    height: 30px;
-    border: none;
-    background: #dcdcdc;
-    border-radius: 6px;
-    font-size: 18px;
-    cursor: pointer;
+body > main .content aside {
+  min-width: 250px;
 }
 
-.subtotal {
-    font-size: 18px;
-    font-weight: bold;
+button {
+  cursor: pointer;
+  font-family: 'Lato', sans-serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table thead tr {
+  border-bottom: 3px solid #eee;
+}
+
+table thead tr th {
+  text-align: left;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  color: #666;
+}
+
+table tbody tr {
+  border-bottom: 3px solid #eee;
+}
+
+table tbody tr:last-child {
+  border: 0;
+}
+
+table tbody tr td {
+  padding: 30px 0;
+}
+
+.product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.product img {
+  border-radius: 6px;
+}
+
+.product .info {
+  margin-left: 20px;
+}
+
+.product .info .name {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.product .info .category {
+  color: #666;
+}
+
+.qty {
+  background: #eee;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 0 0;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 60px;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 30px;
+}
+
+.qty span {
+  margin: 0 10px;
+}
+
+.qty button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: transparent;
+  border: 0;
+  padding: 0 10px;
+  font-size: 20px;
+  height: 100%;
+}
+
+.qty button:hover {
+  background: #ddd;
 }
 
 .remove {
-    border: none;
-    background: none;
-    font-size: 24px;
-    cursor: pointer;
-    color: #444;
+  background: #eee;
+  border: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 20px;
 }
 
-/* ===== RESUMO ===== */
-.resumo {
-    background: rgb(182, 156, 156);
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 10px 5px 12px 10px rgba(0,0,0,0.1);
+.remove:hover {
+  background: #ddd;
 }
 
-.resumo h2 {
-    margin-top: 0;
-    margin-bottom: 20px;
+aside {
+  margin-left: 30px;
 }
 
-.linha,
-.total-linha {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px 0;
-    font-size: 16px;
+aside .box {
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  background: #eee;
+  color: #222;
 }
 
-.total-linha {
-    font-size: 20px;
-    font-weight: bold;
+aside .box header {
+  padding: 15px 20px;
+  font-size: 18px;
+  border-bottom: 1px solid #ccc;
 }
 
-.cupom {
-    display: block;
-    text-align: left;
-    color: #ff0a84;
-    text-decoration: none;
-    margin-top: 10px;
-    font-weight: bold;
+aside .box .info {
+  padding: 20px;
+  font-size: 16px;
 }
 
-.finalizar {
-    width: 100%;
-    background: #ffffff;
-    border: none;
-    padding: 14px;
-    border-radius: 10px;
-    font-size: 18px;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-    margin-top: 20px;
-    font-weight: bold;
+aside .box .info > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 10px;
+  color: #555;
 }
 
-.finalizar:hover {
-    background: #dfdfdf;
+aside .box .info > div:last-child {
+  margin: 0;
 }
 
-/* ===== RESPONSIVIDADE ===== */
-@media (max-width: 900px) {
-    .carrinho-grid {
-        grid-template-columns: 1fr;
-    }
+aside .box .info button {
+  color: #28a745;
+  background: transparent;
+  border: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+}
 
-    .subtotal,
-    .quantidade,
-    .remove {
-        justify-self: flex-end;
-    }
+aside .box footer {
+  padding: 15px 20px;
+  background: #ddd;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+aside > button {
+  border: 0;
+  padding: 15px 0;
+  color: white;
+  background: #28a745;
+  display: block;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+
+aside > button:hover {
+  background: #3bc55b;
 }

@@ -228,6 +228,8 @@
   border-radius: 25px;
   border:5px solid rgb(250, 220, 23);
   margin-left: -109px;
+
+
 }
 #n2{
     margin-left: 15px;
@@ -395,63 +397,118 @@ footer{
 }
 .foto8{
   transition: opacity .4s ease;
+
+} 
+
+/* =====================================
+        RESPONSIVIDADE — TABLET
+===================================== */
+@media (max-width: 1100px) {
+
+  /* produtos 2 por linha */
+  .novidades {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  #n1, #n2, #n3, #n4, #n5 {
+    margin-left: 0 !important;
+  }
 }
-@media (max-width: 768px) {
 
-    /* some logo no celular */
-    .Logo {
-        display: none !important;
-    }
+/* =====================================
+        RESPONSIVIDADE — CELULAR
+===================================== */
+@media (max-width: 600px) {
 
-    .search-wrap {
-        width: 90%;
-        margin-top: 10px;
-    }
+  /* HEADER */
+  .header {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    gap: 20px;
+  }
 
-    #p1 {
-        font-size: 28px;
-    }
+  .Logo {
+    width: 120px;
+    height: 120px;
+    margin: 0;
+  }
 
-    .ancora {
-        font-size: 16px;
-    }
-}
-
-@media (max-width: 480px) {
-
-    .search-wrap {
-        height: 40px;
-    }
-
-    .barra {
-        height: 40px;
-        font-size: 14px;
-    }
-
-    #p1 {
-        font-size: 22px;
-    }
-}
-/* Torna toda a barra superior fixa */
-.top-promo,
-.header {
-    position: fixed;
-    left: 0;
+  .search {
     width: 100%;
-    z-index: 9999;
-}
+  }
 
-/* A faixa rosa fica no topo */
-.top-promo {
-    top: 0;
-}
+  .pills {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 
-/* O header fica logo abaixo da faixa rosa */
-.header {
-    top: 35px; /* altura exata da faixa rosa */
-}
+  /* ITENS DO HEADER À DIREITA */
+  .header-right {
+    margin-bottom: 0;
+    justify-content: center;
+  }
 
-/* Empurra o conteúdo para baixo para não ficar escondido */
-body {
-    padding-top: 135px; /* 35px promo + 100px header */
+  /* PRODUTOS 1 POR LINHA */
+  .novidades {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #n1, #n2, #n3, #n4, #n5 {
+    width: 100%;
+    max-width: 320px;
+    margin-left: 0 !important;
+  }
+
+  #n6 {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+  }
+
+  /* FOOTER */
+  footer {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 0;
+    gap: 20px;
+  }
+
+  .logo-right {
+    margin: 0;
+    height: 180px;
+  }
+
+  .logo-footer {
+    margin: 0;
+    text-align: center;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .p-footer {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    margin: 0;
+  }
+
+  .icone-footer {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+}
+footer{
+  margin-top: 80px;
 }

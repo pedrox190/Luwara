@@ -34,3 +34,5 @@ function adicionarCarrinho() {
     badge.textContent = quantidade;
     badge.style.display = "flex";
 }
+
+

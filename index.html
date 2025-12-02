@@ -11,7 +11,7 @@
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
       rel='stylesheet'>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="shortcut icon" href="LogoLuwara.png" type="image/x-icon"><!--o incone de navegaçao-->
+    <link rel="shortcut icon" href="LogoLuwara.png" type="image/x-icon">
 
 
 <body>
@@ -22,16 +22,14 @@
   <header class="header" >
     <img src="img/LogoLuwara.png" alt="logo" class="Logo" width="166.2px">
     <div class="search-wrap">
-      <div class="search">
-        <input placeholder="" aria-label="buscar" />
-        <i class='bx bx-search-alt-2' id="icon"></i>
-      </div>
+     
 
       <div class="pills">
           <div class="pill"><a href="novidades.html">Novidades</a>
           <i class='bx bxs-moon' style='color:#fffd00' ></i></div>
           <div class="pill"><a href="roupas.html">Roupas</a>
           <i class='bx bxs-sun' style='color:#ffb000' ></i></div>
+          <div class="pill"> <a href="pagina_sobre.html">sobre</a><i class='bx bxs-moon' style='color:#fffd00' ></i></div>
       </div>
     </div>
 
@@ -50,40 +48,10 @@
 
       <main>
           <section>
-            <!--aqui fica o carrosel-->
-            <article>
-                <!-- Slider main container -->
-              <div class="swiper">
-                <!-- Additional required wrapper -->
-              <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide">
-                  <img src="" alt="" >Slide 1</img>
-                </div>
-                <div class="swiper-slide">
-                  <img src="" alt="" >Slide 2</img>
-                </div>
-                <div class="swiper-slide">
-                  <img src="" alt="" >Slide 3</img>
-                </div>
-                ...
-              </div>
-              <!-- If we need pagination -->
-              <div class="swiper-pagination"></div>
+          
 
-              <!-- If we need navigation buttons -->
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div>
-
-            </article>
-    <!--aqui fica OS CIRCULOS-->   
-        <article class="atalho">
             
-            <div class="bolinha1"><img  id="b1" src="img-index/BODY REDONDO.jpg" width="145px"><br>Body</div>
-            <div class="bolinha2"><img  id="b2" src="img-index/VESTIDO REDONDO.jpg" width="150px"><br>Vestidos</div>
-            <div class="bolinha3"><img id="b3"  src="img-index/TOP REDONDO.jpg" width="150px"><br> Tops</div>
-
-        </article>
+            
         <br><br>
                <h2 id="texto2">⭐MAIS VENDIDOS⭐</h2>
                <br><br>
@@ -175,24 +143,26 @@
           <img src="" alt="">
           <div class="logo-footer">
           <div class="p-footer">
-            <a href="minhaConta.html">
+            <a href="minhaConta.html" class="t1">
               Minha Conta
             </a>
-            <a href="compra.html">
+            <a href="compra.html" class="t2">
               Meus Pedidos
             </a>
-            <a href="">
+            <a href="pagina_sobre.html" class="t3">
               Quem Somos
             </a>
           </div>
           <div class="icone-footer">
-            <img src="foto/Instagram_icon.png" alt="" class="inswat" height=" 60px">
+            <a href="https://www.instagram.com/luwara2001?igsh=ejMyOGpkbnQwcjJ0">  <img src="foto/Instagram_icon.png" alt="" class="inswat" height=" 60px" > </a> 
             <img src="foto/WhatsApp.svg.webp" alt="" class="inswat" height=" 60px">
-          </div>
-          </div>
-    
+          </div></div>
+          
+          <div class="mapa"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14631.608770145083!2d-46.618844!3d-23.536020000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce58e437bffac5%3A0xeaffb89a0874712a!2sHotel%20Mega%20Polo%20-%20Hotel%20no%20Br%C3%A1s!5e0!3m2!1spt-BR!2sbr!4v1764619563868!5m2!1spt-BR!2sbr" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            
       </footer>
       <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+      <script src="addcarrinho.js"></script>
        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <script src="index.js"></script>
       <script>
