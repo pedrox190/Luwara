@@ -18,7 +18,6 @@
 
 body {
     /* Coloquei uma imagem de fundo e centralizei o formulario */
-    display: flex;
     /* ativa o flexbox */
     justify-content: center;
     /* deixa tudo no centro do eixo principal */
@@ -41,6 +40,9 @@ body {
     padding: 30px 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     backdrop-filter: blur(4px);
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 /*alterando o h1 dentro do container*/
 .container h1{
