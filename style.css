@@ -517,38 +517,73 @@
     box-shadow: inset   10px 10px 15px rgba(0,0,0,.25);
 }
 
-.logo-footer{
-  height: 250px;
-  display: flex;
+.footer {
+    padding: 40px;
+    background-image: url(img-index/luwara\ branco\ preto.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family: Arial, sans-serif;
 }
-.apps{
 
+.blur{
   display: flex;
-  margin-left: -280px;
-  gap: 40px;
-  justify-content: center;
-
-
+  justify-content: space-between;
+  align-items: center;
 }
-.logo-footer{
-  height: 250px;
-  display: flex;
-  text-align: center;
-  margin-right: 10px;
-  margin-top: 100px;
-  flex-direction: column;
-  
-}
-.logo-right{
-  margin-left: 100px;
-  margin-top: 60px;
-  margin-right: 300px;
-  height: 190px;
-  display: flex;
 
-  
-  
+/* Lado Esquerdo */
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.footer-left p {
+    font-size: 12px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.footer-logo {
+    width: 120px;
+    margin-bottom: 20px;
+    height: auto;
+}
+
+/* Centro */
+.footer-center {
+    text-align: center;
+}
+
+.footer-center h2 {
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.social-icons img {
+    width: 80px;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+/* Mapa */
+.footer-right iframe {
+    border-radius: 12px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.4);
+}
+
 #direitos{
   color: #ccc;
   font-weight: 700;
