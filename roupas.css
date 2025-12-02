@@ -321,109 +321,158 @@
 
 } 
 
-/* =====================================
-        RESPONSIVIDADE — TABLET
-===================================== */
-@media (max-width: 1100px) {
+/* ==========================================================
+   RESPONSIVIDADE GERAL (MANTENDO O VISUAL ORIGINAL)
+   ========================================================== */
 
-  /* produtos 2 por linha */
+/* LIMITE PARA NÃO QUEBRAR IMAGENS */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ----------- TELAS GRANDES (até 1300px) ----------- */
+@media (max-width: 1300px) {
   .novidades {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-    padding-left: 0;
-    margin-left: 0;
+      gap: 25px;
+      padding-left: 0;
+      justify-content: center;
   }
 
   #n1, #n2, #n3, #n4, #n5 {
-    margin-left: 0 !important;
+      margin-left: 0 !important;
   }
 }
 
-/* =====================================
-        RESPONSIVIDADE — CELULAR
-===================================== */
+/* ----------- TABLET (até 900px) ----------- */
+@media (max-width: 900px) {
+
+  .novidades {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 22px;
+      justify-items: center;
+  }
+
+  #n1, #n2, #n3, #n4, #n5 {
+      width: 260px !important;
+  }
+
+  .footer {
+      text-align: center;
+  }
+
+  .blur {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+  }
+
+  .footer-right iframe {
+      width: 260px;
+      height: 160px;
+  }
+}
+
+/* ----------- CELULAR (até 600px) ----------- */
 @media (max-width: 600px) {
 
   /* HEADER */
   .header {
-    flex-direction: column;
-    height: auto;
-    text-align: center;
-    gap: 20px;
+      flex-direction: column;
+      text-align: center;
+      height: auto;
+      padding: 20px 0;
+      gap: 15px;
   }
 
-  .search {
-    width: 100%;
+  .header-right {
+      justify-content: center;
+      gap: 20px;
+  }
+
+  .Logo {
+      width: 130px;
   }
 
   .pills {
-    justify-content: center;
-    flex-wrap: wrap;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
   }
 
-  /* ITENS DO HEADER À DIREITA */
-  .header-right {
-    margin-bottom: 0;
-    justify-content: center;
-  }
-
-  /* PRODUTOS 1 POR LINHA */
+  /* GRID 1 POR LINHA */
   .novidades {
-    flex-direction: column;
-    align-items: center;
-    padding-left: 0;
-    margin-left: 0;
-    margin-right: 0;
+      grid-template-columns: 1fr;
+      padding-left: 0;
+      margin: 0 auto;
+      width: 100%;
   }
 
   #n1, #n2, #n3, #n4, #n5 {
-    width: 100%;
-    max-width: 320px;
-    margin-left: 0 !important;  
+      width: 90% !important;
+      max-width: 320px;
   }
 
   #n6 {
-    width: 100%;
-    max-width: 280px;
-    height: auto;
+      width: 100%;
+      max-width: 280px;
+  }
+
+  /* BOTÕES */
+  .botoes {
+      width: 90%;
+      max-width: 240px;
   }
 
   /* FOOTER */
-  footer {
-    flex-direction: column;
-    text-align: center;
-    padding: 30px 0;
-    gap: 20px;
+  .footer {
+      padding: 30px;
   }
 
-  .logo-right {
-    margin: 0;
-    height: 180px;
+  .blur {
+      flex-direction: column;
+      text-align: center;
   }
 
-  .logo-footer {
-    margin: 0;
-    text-align: center;
-    flex-direction: column;
-    height: auto;
+  .footer-center h2 {
+      font-size: 22px;
   }
 
-  .p-footer {
-    flex-direction: column;
-    gap: 10px;
-    width: 100%;
-    margin: 0;
+  .social-icons {
+      gap: 20px;
   }
 
-  .icone-footer {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+  .social-icons img {
+      width: 60px;
   }
 
+  .footer-right iframe {
+      width: 90%;
+      height: 150px;
+  }
 }
-footer{
-  margin-top: 80px;
+
+/* ----------- CELULAR PEQUENO (até 420px) ----------- */
+@media (max-width: 420px) {
+
+  .title {
+      font-size: 32px;
+  }
+
+  h3 {
+      font-size: 18px;
+  }
+
+  #n1, #n2, #n3, #n4, #n5 {
+      padding: 10px;
+  }
+
+  .botoes {
+      padding: 10px;
+  }
+
+  .footer-logo {
+      width: 90px;
+  }
 }
