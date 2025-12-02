@@ -6,7 +6,7 @@
    body {
     
     font-family: Arial, Helvetica, sans-serif;
-    background: #c5c3c3;
+    background: #f4dfed;
     color: #111;
   }
   
@@ -517,72 +517,153 @@
     box-shadow: inset   10px 10px 15px rgba(0,0,0,.25);
 }
 
-.logo-footer{
-  height: 250px;
-  display: flex;
+.footer {
+    padding: 40px;
+    background-image: url(img-index/luwara\ branco\ preto.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family: Arial, sans-serif;
 }
-.apps{
 
+.blur{
   display: flex;
-  margin-left: -280px;
-  gap: 40px;
-  justify-content: center;
-
-
+  justify-content: space-between;
+  align-items: center;
 }
-.logo-footer{
-  height: 250px;
-  display: flex;
-  text-align: center;
-  margin-right: 10px;
-  margin-top: 100px;
-  flex-direction: column;
-  
-}
-.logo-right{
-  margin-left: 100px;
-  margin-top: 60px;
-  margin-right: 300px;
-  height: 190px;
-  display: flex;
 
-  
-  
+/* Lado Esquerdo */
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.footer-left p {
+    font-size: 12px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.footer-logo {
+    width: 120px;
+    margin-bottom: 20px;
+    height: auto;
+}
+
+/* Centro */
+.footer-center {
+    text-align: center;
+}
+
+.footer-center h2 {
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.social-icons img {
+    width: 80px;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+/* Mapa */
+.footer-right iframe {
+    border-radius: 12px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.4);
+}
+
 #direitos{
   color: #ccc;
   font-weight: 700;
 }
-footer{
-  background-image: url(foto/8f24d14d-eb93-4c3b-b0ad-03019e453fc8.jfif);
+.footer {
+    padding: 40px;
+    background-image: url(img-index/luwara\ branco\ preto.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.blur{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Lado Esquerdo */
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+<<<<<<< HEAD
+.icone-footer{
+  text-align: center;
+  margin-top: 90px;
+  margin-left: 200px;
   display: flex;
 
-  border: rgb(238, 234, 180) solid 5px;
-  border-image: fill 1 linear-gradient(rgba(207, 201, 201, 0.067),#000) ;
+=======
+
+.footer-left p {
+    font-size: 12px;
+    margin-top: 5px;
+    font-weight: bold;
+>>>>>>> e760d13d98e065dbacf0d3dcb8536e717c763861
 }
-.p-footer{
-  width: 500px;
-  color: #fffefe;
-  display: flex;
-  margin-bottom: 100px;
-  gap: 70px;
-  
-  
+
+.footer-logo {
+    width: 120px;
+    margin-bottom: 20px;
+    height: auto;
 }
-.local{
-  text-align: center;
-  color: #ccc;
-  border: #ccc;
-  background-color: #111;
-  margin-top: 15px;
-  padding: 7px;
-  border-radius: 13px;   /* arredonda */
-  border: 1px solid #ccc; /* borda bem fininha */
-  cursor: pointer;
+
+/* Centro */
+.footer-center {
+    text-align: center;
 }
-.icone-footer{
-  margin-left: 230px;
+
+.footer-center h2 {
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 20px;
 }
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.social-icons img {
+    width: 80px;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+/* Mapa */
+.footer-right iframe {
+    border-radius: 12px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.4);
+}
+
 /* Responsive  os incones */ 
   @media (max-width: 1100px) {
     .product-grid {
