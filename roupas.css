@@ -89,6 +89,7 @@
     font-weight: 700;
     display: flex;
     gap: 18px;
+    text-align: center;
   }
   
   /* Title */
@@ -515,9 +516,11 @@ footer{
   background: #fff;
   padding: 6px 14px;
   border-radius: 14px;
+  text-align: center;
 }
 .header-right a{
   color: #111;
+  text-align: center;
 }
 
 .top-promo,
