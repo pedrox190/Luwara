@@ -562,3 +562,109 @@
  border-radius: 20px;
 
 }
+/* =============================== */
+/*     RESPONSIVIDADE GERAL        */
+/* =============================== */
+
+/* --- Telas até 1200px --- */
+@media (max-width: 1200px) {
+
+  .novidades,
+  .natal {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0;
+  }
+
+  .card-produto,
+  #n1, #n2, #n3, #n4, #n5,
+  #nt1, #nt2, #nt3, #nt4, #nt5 {
+    margin: 10px;
+  }
+
+  .queridinho {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  #querido1 {
+    padding-left: 0;
+    margin-top: 20px;
+  }
+
+  .video_vestido {
+    width: 80%;
+  }
+
+  .luwara1 {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 20px;
+    justify-content: center;
+  }
+}
+
+/* --- Telas até 768px (celular grande) --- */
+@media (max-width: 768px) {
+
+  .header {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding-bottom: 10px;
+  }
+}
+/* =============================== */
+/*     RESPONSIVIDADE GERAL        */
+/* =============================== */
+
+/* --- Telas até 1200px --- */
+@media (max-width: 1200px) {
+
+  .novidades,
+  .natal {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0;
+  }
+
+  .card-produto,
+  #n1, #n2, #n3, #n4, #n5,
+  #nt1, #nt2, #nt3, #nt4, #nt5 {
+    margin: 10px;
+  }
+
+  .queridinho {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  #querido1 {
+    padding-left: 0;
+    margin-top: 20px;
+  }
+
+  .video_vestido {
+    width: 80%;
+  }
+
+  .luwara1 {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 20px;
+    justify-content: center;
+  }
+}
+
+/* --- Telas até 768px (celular grande) --- */
+@media (max-width: 768px) {
+
+  .header {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding-bottom: 10px;
+  }
+}
