@@ -6,7 +6,7 @@
    body {
     
     font-family: Arial, Helvetica, sans-serif;
-    background: #c5c3c3;
+    background: #f4dfed;
     color: #111;
   }
   
@@ -606,7 +606,11 @@ footer{
   cursor: pointer;
 }
 .icone-footer{
-  margin-left: 230px;
+  text-align: center;
+  margin-top: 90px;
+  margin-left: 200px;
+  display: flex;
+
 }
 /* Responsive  os incones */ 
   @media (max-width: 1100px) {
