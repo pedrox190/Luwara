@@ -588,36 +588,73 @@
   color: #ccc;
   font-weight: 700;
 }
-footer{
-  background-image: url(foto/8f24d14d-eb93-4c3b-b0ad-03019e453fc8.jfif);
-  display: flex;
+.footer {
+    padding: 40px;
+    background-image: url(img-index/luwara\ branco\ preto.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
 
-  border: rgb(238, 234, 180) solid 5px;
-  border-image: fill 1 linear-gradient(rgba(207, 201, 201, 0.067),#000) ;
-}
-.p-footer{
-  width: 500px;
-  color: #fffefe;
+.blur{
   display: flex;
-  margin-bottom: 100px;
-  gap: 70px;
-  
-  
+  justify-content: space-between;
+  align-items: center;
 }
-.local{
-  text-align: center;
-  color: #ccc;
-  border: #ccc;
-  background-color: #111;
-  margin-top: 15px;
-  padding: 7px;
-  border-radius: 13px;   /* arredonda */
-  border: 1px solid #ccc; /* borda bem fininha */
-  cursor: pointer;
+
+/* Lado Esquerdo */
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.icone-footer{
-  margin-left: 230px;
+
+.footer-left p {
+    font-size: 12px;
+    margin-top: 5px;
+    font-weight: bold;
 }
+
+.footer-logo {
+    width: 120px;
+    margin-bottom: 20px;
+    height: auto;
+}
+
+/* Centro */
+.footer-center {
+    text-align: center;
+}
+
+.footer-center h2 {
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.social-icons img {
+    width: 80px;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+/* Mapa */
+.footer-right iframe {
+    border-radius: 12px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.4);
+}
+
 /* Responsive  os incones */ 
   @media (max-width: 1100px) {
     .product-grid {
