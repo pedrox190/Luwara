@@ -559,19 +559,31 @@
   height: 250px;
   display: flex;
   text-align: center;
-  margin-right: 90px;
+  margin-right: 10px;
   margin-top: 100px;
   flex-direction: column;
+  
 }
 .logo-right{
-  margin-right: 200px;
-  height: 250px;
+  margin-left: 100px;
+  margin-top: 60px;
+  margin-right: 300px;
+  height: 190px;
   display: flex;
+
+  
+  
+}
+#direitos{
+  color: #ccc;
+  font-weight: 700;
 }
 footer{
   background-image: url(foto/8f24d14d-eb93-4c3b-b0ad-03019e453fc8.jfif);
   display: flex;
-  border: palegoldenrod solid 5px;
+
+  border: rgb(238, 234, 180) solid 5px;
+  border-image: fill 1 linear-gradient(rgba(207, 201, 201, 0.067),#000) ;
 }
 .p-footer{
   width: 500px;
@@ -582,8 +594,19 @@ footer{
   
   
 }
+.local{
+  text-align: center;
+  color: #ccc;
+  border: #ccc;
+  background-color: #111;
+  margin-top: 15px;
+  padding: 7px;
+  border-radius: 13px;   /* arredonda */
+  border: 1px solid #ccc; /* borda bem fininha */
+  cursor: pointer;
+}
 .icone-footer{
-  margin-left: -600px;
+  margin-left: 230px;
 }
 /* Responsive  os incones */ 
   @media (max-width: 1100px) {
@@ -610,44 +633,16 @@ footer{
     text-decoration: none;
   
   }
-.t1{
-   border: 1px solid #ccc; /* borda bem fininha */
-   padding: 10px;
-  margin: 10px;
-  width: 170px;
-  border-radius: 13px;   /* arredonda */
-  border: 1px solid #ccc; /* borda bem fininha */
-  cursor: pointer;
-  transition: .2s;
-   background-color: #ccc;
-}
-.t2{
-  border: 1px solid #ccc; /* borda bem fininha */
-  padding: 10px;
-  margin: 10px;
-  width: 170px;
-  border-radius: 13px;   /* arredonda */
-  border: 1px solid #ccc; /* borda bem fininha */
-  cursor: pointer;
-  transition: .2s;
-   background-color: #ccc;
-}
-.t3{
-  border: 1px solid #ccc; /* borda bem fininha */
-  padding: 10px;
-  margin: 10px;
-  width: 190px;
-  border-radius: 10px;   /* arredonda */
-  border: 1px solid #ccc; /* borda bem fininha */
-  cursor: pointer;
-  transition: .2s;
-  background-color: #ccc;
-}
+
    
 .mapa{
-  margin-top: 45px;
-  margin-right: 100px;
+  padding-top:   45px;
+  padding-right: 10px;
+  padding-left: 4px;
+  text-align: center;
+  
 }
 .mapa iframe{
  border-radius: 20px;
+
 }
