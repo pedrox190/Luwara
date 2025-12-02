@@ -1,8 +1,21 @@
+const STORAGE_KEY = "carrinho";
+
+function finalizarCompra() {
+  const carrinho = JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
+  const contador = document.getElementById("contador-carrinho");
+  if (!contador) return;
+  const totalQtd = carrinho.reduce((s, it) => s + (it.qtd || 0), 0);
+  if (totalQtd > 0) {
+    alert("compra realizada com sucesso! 😁");
+  } else {
+    alert("Oxi... não tem nada no carrinho não doido 🤨")
+  }
+}
+
 // addcarrinho.js
 // Mantém popup igual e salva produto em localStorage (chave "carrinho")
 
-(function(){
-  const STORAGE_KEY = "carrinho";
+(function () {
 
   // Atualiza contador no header (soma de todas as quantidades)
   function atualizarContador() {
@@ -78,7 +91,7 @@
 
       // nome: pegamos o primeiro h3 (se houver que contenha o nome)
       const h3s = card.querySelectorAll("h3");
-      const nome = h3s && h3s.length > 0 ? h3s[0].innerText.trim() : `Produto ${index+1}`;
+      const nome = h3s && h3s.length > 0 ? h3s[0].innerText.trim() : `Produto ${index + 1}`;
 
       // preço: dentro do card tem h3 com id="c1" (ou similar)
       const precoEl = card.querySelector("#c1");
