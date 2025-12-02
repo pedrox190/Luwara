@@ -13,14 +13,17 @@
   align-items: center;
   backdrop-filter: blur(2px);
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-  padding: 100px;
+  padding: 50px;
+  border-radius: 10px;
 }
 
 /* Lado Esquerdo */
 .footer-left {
+    width: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-right: 1px solid #ffffff;
 }
 
 .footer-left p {
@@ -46,14 +49,10 @@
     margin-bottom: 20px;
 }
 
-
-
 .center a{
-    text-decoration: none;
     color: white;
-    margin:30px;
+    margin:10px;
     font-size: larger;
-    background-color: rgb(97, 96, 96);
     padding: 8px;
     border-radius: 20px;
     text-align: center;
@@ -75,7 +74,19 @@
     transform: scale(1.1);
 }
 
+.center {
+    width: 30%;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
 /* Mapa */
+.footer-right {
+    width: 40%;
+}
+
 .footer-right iframe {
     border-radius: 12px;
     box-shadow: 0 0 6px rgba(0,0,0,0.4);
