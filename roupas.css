@@ -24,7 +24,7 @@
   /* HEADER */
   .header {
     background: #7b2aa7;
-    height: 150px;
+    height: 100px;
     padding: 22px 40px;
     display: flex;
     align-items: center;
@@ -68,7 +68,6 @@
   .pills {
     display: flex;
     gap: 8px;
-    margin-top: 25px;
     text-decoration: none;
 }
 .pills a{
@@ -90,7 +89,7 @@
     font-weight: 700;
     display: flex;
     gap: 18px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
   }
   
   /* Title */
@@ -193,22 +192,6 @@
     font-size: 10px;
   }
   
-  /* Responsive */
-  @media (max-width: 1100px) {
-    .product-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-  
-  @media (max-width: 600px) {
-    .product-grid {
-      grid-template-columns: 1fr;
-    }
-  
-    .img {
-      height: 320px;
-    }
-  }
   #icon{
   font-size: 20px;
   }
@@ -224,11 +207,11 @@
     margin-top: -500px;
   }
   .Logo{
-    height: 220px;
-    width: 230px;
+    height: 180px;
+    width: 190px;
     position: relative;
     margin: 0px 0px 70px 0px;
-    margin-top: 200px;
+    margin-top: 160px;
   }
 .novidades{
     display:flex;
@@ -412,4 +395,63 @@ footer{
 }
 .foto8{
   transition: opacity .4s ease;
+}
+@media (max-width: 768px) {
+
+    /* some logo no celular */
+    .Logo {
+        display: none !important;
+    }
+
+    .search-wrap {
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    #p1 {
+        font-size: 28px;
+    }
+
+    .ancora {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .search-wrap {
+        height: 40px;
+    }
+
+    .barra {
+        height: 40px;
+        font-size: 14px;
+    }
+
+    #p1 {
+        font-size: 22px;
+    }
+}
+/* Torna toda a barra superior fixa */
+.top-promo,
+.header {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+/* A faixa rosa fica no topo */
+.top-promo {
+    top: 0;
+}
+
+/* O header fica logo abaixo da faixa rosa */
+.header {
+    top: 35px; /* altura exata da faixa rosa */
+}
+
+/* Empurra o conteúdo para baixo para não ficar escondido */
+body {
+    padding-top: 135px; /* 35px promo + 100px header */
 }
