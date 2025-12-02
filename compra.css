@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -30,44 +31,44 @@
     border-radius: 50%;
     background: #fff url('logo.png') center/cover no-repeat;
   }
-
-/* search */
-.search-wrap {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  
+  /* search */
+  .search-wrap {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .search {
+    width: 70%;
+    max-width: 760px;
+    background: #fff;
+    border-radius: 28px;
+    padding: 12px 18px;
+    border: 4px solid #20c0ff;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .search input {
+    flex: 1;
+    border: none;
+    font-size: 18px;
+    outline: none;
+  }
+  
+  /* pills */
+  .pills {
+    display: flex;
+    gap: 8px;
+    text-decoration: none;
 }
-
-.search {
-  width: 70%;
-  max-width: 760px;
-  background: #fff;
-  border-radius: 28px;
-  padding: 12px 18px;
-  border: 4px solid #20c0ff;
-  display: flex;
-  gap: 10px;
-}
-
-.search input {
-  flex: 1;
-  border: none;
-  font-size: 18px;
-  outline: none;
-}
-
-/* pills */
-.pills {
-  display: flex;
-  gap: 8px;
-  margin-top: 25px;
-  text-decoration: none;
-}
-.pills a {
+.pills a{
   text-decoration: none;
   color: #111;
 }
+
 
 .pill {
   background: #fff;
@@ -75,35 +76,37 @@
   border-radius: 14px;
   font-weight: 700;
 }
-
-.ancora {
-  margin-top: 19px;
-  color: white;
-  text-decoration: none;
-}
-
-/* right icons */
-.header-right {
-  color: white;
-  font-weight: 700;
-  display: flex;
-  gap: 18px;
-  margin-bottom: 50px;
-}
+  
+  /* right icons */
+  .header-right {
+    color: white;
+    font-weight: 700;
+    display: flex;
+    gap: 18px;
+    text-align: center;
+    align-items: center;
+  }
 
 /* Title */
-.title {
+  .title {
+    text-align: center;
+    font-size: 44px;
+    font-weight: 900;
+    margin-top: 170px;
+    letter-spacing: 2px;
+  }
+  
+  .title .stars {
+    color: #ff2fa6;
+  }
+
+
+  .ancora-class{
+  background: #ffffff;
+  padding: 6px 14px;
+  border-radius: 14px;
   text-align: center;
-  font-size: 44px;
-  font-weight: 900;
-  margin-top: 32px;
-  letter-spacing: 2px;
 }
-
-.title .stars {
-  color: #ff2fa6;
-}
-
 
 #h1-carrinho{
 margin-right: 530px;
@@ -111,6 +114,12 @@ margin-right: 530px;
 
 .icone-x{
   margin-right: 20px;
+}
+
+.ancora {
+  margin-top: 19px;
+  color: #111;
+  text-decoration: none;
 }
 
 body {
