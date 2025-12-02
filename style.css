@@ -36,38 +36,13 @@
     background: #fff url('logo.png') center/cover no-repeat;
   }
   
-  /* search */
-  .search-wrap {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .search {
-    width: 70%;
-    max-width: 760px;
-    background: #fff;
-    border-radius: 28px;
-    padding: 12px 18px;
-    border: 4px solid #20c0ff;
-    display: flex;
-    gap: 10px;
-  }
-  
-  .search input {
-    flex: 1;
-    border: none;
-    font-size: 18px;
-    outline: none;
-  }
-  
   /* pills */
   .pills {
     display: flex;
     gap: 8px;
     margin-top: 25px;
     text-decoration: none;
+    margin-left: 355px;
 }
 .pills a{
   text-decoration: none;
@@ -645,4 +620,44 @@ footer{
 .mapa iframe{
  border-radius: 20px;
 
+}
+
+.ancora-class{
+  background: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.header-right{
+margin-top: 50px;
+margin-left: 250px;
+
+}
+
+.header-right a{
+  color: #111;
+  text-align: center;
+}
+
+.top-promo,
+.header {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+
+.top-promo {
+    top: 0;
+}
+
+
+.header {
+    top: 35px; 
+}
+
+body {
+    padding-top: 135px; 
 }
