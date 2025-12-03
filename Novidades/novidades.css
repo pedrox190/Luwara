@@ -272,4 +272,170 @@ body {
   align-items: center;
   justify-content: center;
 }
+@media (max-width: 850px) {
+
+  /* ===== HEADER ===== */
+  .header {
+    justify-content: space-between;
+    padding: 10px 15px;
+  }
+
+  /* Logo menor */
+  .Logo {
+    width: 120px;
+  }
+
+  /* Some o menu das 'pills' */
+  .pills {
+    display: none !important;
+  }
+
+  /* Some login, cadastro e carrinho */
+  .header-right {
+    display: none !important;
+  }
+
+  /* ===== HAMBURGUER ===== */
+  .hamburger {
+    display: flex !important;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    z-index: 1001;
+  }
+
+  .hamburger div {
+    width: 28px;
+    height: 3px;
+    background: black;
+    border-radius: 5px;
+  }
+
+  /* ===== MENU MOBILE ===== */
+  #mobile-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 75%;
+    height: 100vh;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 60px 25px;
+    transition: .4s;
+    box-shadow: -5px 0 10px rgba(0,0,0,0.2);
+    z-index: 1000;
+  }
+
+  #mobile-menu.active {
+    right: 0;
+  }
+
+  #mobile-menu a {
+    font-size: 22px;
+    font-weight: 600;
+    color: #000;
+  }
+
+}
+@media (max-width: 850px) {
+
+  .novidades {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+  }
+
+  .novidades > div {
+    width: 90% !important;   /* caixa da roupa ocupa 90% da tela */
+    max-width: 350px;        /* limite bonito */
+    text-align: center;
+    padding: 15px;
+  }
+
+  .novidades img {
+    width: 100% !important;  /* a foto se ajusta ao card */
+    height: auto;
+  }
+
+}
+
+@media (max-width: 850px) {
+
+  .footer-right {
+    width: 100% !important;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 25px;
+  }
+
+  .footer-right iframe {
+    width: 90% !important;
+    height: 200px !important;
+    border-radius: 12px;
+    display: block !important;
+  }
+
+}
+@media (max-width: 768px) {
+    .mapa iframe {
+        width: 90%;
+        max-width: 320px;
+        height: 180px;
+    }
+}
+@media (max-width: 850px) {
+
+  .footer {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    padding: 20px;
+  }
+
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    width: 100% !important;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  /* Logo */
+  .footer-logo {
+    width: 130px !important;
+    margin: 0 auto;
+    display: block;
+  }
+
+  /* Contatos */
+  .social-icons {
+    justify-content: center !important;
+  }
+
+  /* Links do footer */
+  .center {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center !important;
+    margin: 20px 0;
+  }
+
+  .center a {
+    font-size: 18px;
+  }
+
+  /* Mapa */
+  .footer-right iframe {
+    width: 90% !important;
+    height: 180px !important;
+    margin: 0 auto;
+    display: block;
+  }
+}
 

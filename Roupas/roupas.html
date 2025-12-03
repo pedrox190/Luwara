@@ -19,32 +19,53 @@
     Compre no site e retire em loja! Consulte condições! *Apenas em São Paulo (Capital) — Frete Grátis acima de R$149,99
   </div>
 
-  <header class="header">
-    <a href="../index.html"><img src="../img/LogoLuwara.png" alt="logo" class="Logo" width="166.2px"></a>
+<header class="header">
+
+    <a href="../index.html">
+        <img src="../img/LogoLuwara.png" alt="logo" class="Logo" width="166px">
+    </a>
+
     <div class="search-wrap">
-      <div class="pills">
-        <div class="pill"><a href="../Sobre/pagina_sobre.html">Sobre</a>
-          <i class='bx bxs-moon' style='color:#fffd00'></i>
+        <div class="pills">
+            <div class="pill"><a href="../Sobre/pagina_sobre.html">Sobre</a></div>
+            <div class="pill"><a href="../Novidades/novidades.html">Novidades</a></div>
+            <div class="pill"><a href="../Roupas/roupas.html">Roupas</a></div>
         </div>
-        <div class="pill"><a href="../Novidades/novidades.html">Novidades</a>
-          <i class='bx bxs-sun' style='color:#ffb000'></i>
-        </div>
-        <div class="pill"><a href="../Roupas/roupas.html">Roupas</a>
-          <i class='bx bxs-sun' style='color:#ffb000'></i>
-        </div>
-      </div>
     </div>
-    </div>
-    <!-- aq -->
+
     <div class="header-right">
-      <div class="ancora-class"><a href="../Login/minhaConta.html" class="ancora">Login</a></div>
-      <div class="ancora-class"><a href="../Cadastro/cadastro.html" class="ancora">Cadastro</a></div>
-      <div class="carrinho-icon">
-        <a href="../Carrinho/compra.html"><img src="../foto/325635665-removebg-preview.png" alt="bag" class="bag"></a>
-        <span id="contador-carrinho" class="badge">0</span>
-      </div>
+        <div class="ancora-class"><a href="../Login/minhaConta.html" class="pololo">Login</a></div>
+        <div class="ancora-class"><a href="../Cadastro/cadastro.html" class="pololo">Cadastro</a></div>
+
+        <div class="carrinho-icon">
+            <a href="../Carrinho/compra.html">
+                <img src="../foto/325635665-removebg-preview.png" alt="bag" class="bag">
+            </a>
+            <span id="contador-carrinho" class="badge">0</span>
+        </div>
     </div>
-  </header>
+<!-- HAMBÚRGUER -->
+<div class="hamburger">
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+
+<!-- MENU MOBILE -->
+<nav class="mobile-menu" id="mobileMenu">
+
+    <!-- BOTÃO DE FECHAR (X) -->
+    <span class="close-menu">✖</span>
+
+    <a href="../Sobre/pagina_sobre.html">Sobre</a>
+    <a href="../Novidades/novidades.html">Novidades</a>
+    <a href="../Roupas/roupas.html">Roupas</a>
+    <a href="../Login/minhaConta.html">Login</a>
+    <a href="../Cadastro/cadastro.html">Cadastro</a>
+    <a href="../Carrinho/compra.html">Carrinho</a>
+</nav>
+
+</header>
 
   <main>
     <h1 class="title"><span class="stars"><i class='bx bxs-sun' style='color:#ffb000'></i></span> ROUPAS <span
@@ -120,7 +141,7 @@
           </a>
         </div>
       </div>
-    </div>
+    </'div>
     <div class="center">
       <a href="../Sobre/pagina_sobre.html">Sobre</a>
       <a href="../Novidades/novidades.html">Novidades</a>
@@ -141,6 +162,41 @@
   <script>
     AOS.init();
   </script>
+<script>
+const hamburger = document.querySelector('.hamburger');
+const menu = document.querySelector('#mobileMenu');
+const closeMenu = document.querySelector('.close-menu');
+
+// abrir menu
+hamburger.addEventListener('click', () => {
+    menu.classList.add('active');
+});
+
+// fechar menu (X)
+closeMenu.addEventListener('click', () => {
+    menu.classList.remove('active');
+});
+
+// fechar ao clicar nos links
+document.querySelectorAll('#mobileMenu a').forEach(link => {
+    link.addEventListener('click', () => {
+        menu.classList.remove('active');
+    });
+});
+
+// fechar ao clicar FORA do menu
+document.addEventListener('click', (e) => {
+    const isClickInsideMenu = menu.contains(e.target);
+    const isClickHamburger = hamburger.contains(e.target);
+
+    if (!isClickInsideMenu && !isClickHamburger) {
+        menu.classList.remove('active');
+    }
+});
+</script>
+
+
+
 </body>
 
 </html>

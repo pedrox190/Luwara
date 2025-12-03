@@ -43,6 +43,12 @@
         <span id="contador-carrinho" class="badge">0</span>
       </div>
     </div>
+    <div class="hamburger">
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+
   </header>
 
   <main>
@@ -106,6 +112,28 @@
   <script>
     AOS.init();
   </script>
+  <script>
+const hamb = document.querySelector(".hamburger");
+
+// Criar menu mobile automaticamente
+let menu = document.createElement("nav");
+menu.id = "mobile-menu";
+menu.innerHTML = `
+  <a href="../Sobre/pagina_sobre.html">Sobre</a>
+  <a href="../Novidades/novidades.html">Novidades</a>
+  <a href="../Roupas/roupas.html">Roupas</a>
+  <a href="../Login/minhaConta.html">Login</a>
+  <a href="../Cadastro/cadastro.html">Cadastro</a>
+  <a href="../Carrinho/compra.html">Carrinho</a>
+`;
+document.body.appendChild(menu);
+
+// Animação do menu
+hamb.onclick = () => {
+  menu.classList.toggle("active");
+};
+</script>
+
 </body>
 
 </html>

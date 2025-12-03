@@ -36,3 +36,11 @@ function adicionarCarrinho() {
 }
 
 
+  const burger = document.querySelector(".hamburger");
+  const menu = document.querySelector(".header-right");
+
+  burger.onclick = () => {
+    menu.classList.toggle("active");
+  };
+
+
