@@ -274,7 +274,6 @@ body {
 }
 @media (max-width: 850px) {
 
-  /* ===== HEADER ===== */
   .header {
     justify-content: space-between;
     padding: 10px 15px;
@@ -349,14 +348,14 @@ body {
   }
 
   .novidades > div {
-    width: 90% !important;   /* caixa da roupa ocupa 90% da tela */
-    max-width: 350px;        /* limite bonito */
+    width: 90% !important;  
+    max-width: 350px;       
     text-align: center;
     padding: 15px;
   }
 
   .novidades img {
-    width: 100% !important;  /* a foto se ajusta ao card */
+    width: 100% !important;  
     height: auto;
   }
 
@@ -437,5 +436,53 @@ body {
     margin: 0 auto;
     display: block;
   }
+}
+@media (max-width: 1024px) {
+  .novidades {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #n1, #n2, #n3, #n4, #n5 {
+    width: 45%;
+    margin: 10px;
+  }
+
+  #n6 {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .novidades {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+  }
+}
+@media (max-width: 768px) {
+    .botoes,
+    .btn-comprar,
+    .botao-compra,
+    .novidade-botao {
+        width: 90% !important;
+        font-size: 14px !important;
+        padding: 10px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .botoes,
+    .btn-comprar,
+    .botao-compra,
+    .novidade-botao {
+        width: 100% !important;
+        font-size: 13px !important;
+        padding: 8px !important;
+    }
 }
 

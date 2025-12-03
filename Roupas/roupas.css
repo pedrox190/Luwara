@@ -254,9 +254,7 @@
   .foto8{
     transition: opacity .4s ease;
   }
-  /* ===========================
-   RESPONSIVIDADE PRODUTOS
-   =========================== */
+
 
 @media (max-width: 1024px) {
   .novidades {
@@ -305,41 +303,5 @@
         font-size: 13px !important;
         padding: 8px !important;
     }
-}
-@media (max-width: 600px) {
-
-  .blur {
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* DUAS COLUNAS */
-    gap: 20px;
-    text-align: center;
-  }
-
-  /* LOGO / DIREITOS - 1ª COLUNA */
-  .footer-left {
-    grid-column: 1 / 2;
-  }
-
-  /* CONTATOS - 2ª COLUNA */
-  .footer-center {
-    grid-column: 2 / 3;
-  }
-
-  /* LINKS (Sobre / Novidades / Roupas) — FICAM ABAIXO DAS DUAS COLUNAS */
-  .center {
-    grid-column: 1 / 3; /* ocupa toda a largura */
-  }
-
-  /* MAPA — ÚLTIMO */
-  .footer-right {
-    grid-column: 1 / 3; /* ocupa toda a largura */
-  }
-
-  .footer-right iframe {
-    width: 90%;
-    height: 160px;
-    margin: auto;
-    display: block;
-  }
 }
 
