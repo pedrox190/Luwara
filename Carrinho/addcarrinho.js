@@ -6,9 +6,9 @@ function finalizarCompra() {
   if (!contador) return;
   const totalQtd = carrinho.reduce((s, it) => s + (it.qtd || 0), 0);
   if (totalQtd > 0) {
-    alert("compra realizada com sucesso! 😁");
+    alert("compra realizada com sucesso!");
   } else {
-    alert("Oxi... não tem nada no carrinho não doido 🤨")
+    alert("O carrinho está vazio")
   }
 }
 
